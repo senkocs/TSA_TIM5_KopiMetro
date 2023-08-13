@@ -1,0 +1,12 @@
+Urutan pesanan: 3 karakter
+
+Boss Zana - Kopi Polos
+Dimas - Matcha Latte
+Ranni - Latte Biasa
+
+Resep : 3 minuman
+Kopi polos  +$10 : 5 kopi, 3 chocaline, 2 plumypop
+matchalatte +$20: 3 kopi, toggle susu, toggle matcha, 2 chocaline, 2 plumypop
+lattebiasa  +$15: 3 kopi, toggle susu, 3 chocaline, 2 plumypop
+
+*NB: selain resep minuman gagal : racun.png

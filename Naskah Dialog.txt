@@ -1,0 +1,66 @@
+Day 1
+
+< pelanggan pertama: Zana (Bos kita) >
+
+Vivy : Selamat pagi boss...
+Zana : Pagi Vivy, oiya hari ini kita akan tutup lebih awal ya
+v : lo kenapa? jangan bilang harga mie instan naik ya
+z : bukaan, nanti saya pengen liburan ke luar negri Vivy. Jdi kalian saya liburkan juga biar sama sama libur
+v : wah, bos emang terbaik, jdi makin sayang :D
+z : maaf, kamu saya tolak soalnya saya ngga suka cewe
+v : noooooo...
+z : udah mending kamu kerja, skalian buatin kopi polos ya v
+v : ok zana
+
+( pesenan pertama : Kopi Polos )
+
+[ kalo pesanan benar ]
+v : ini kopi polos ny silahkan 
+z : emang barista terbaik kamu vi ^^
+v : aduh jadi malu
+
+[ kalo salah ]
+v : nih 
+z : ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur
+v : eh maaf, salah hehe
+z : hadeh
+
+< pelanggan kedua: Dimas >
+
+v : selamat datang di Kopi Metro, mau pesan apa mas?
+d : anu mbak, matchalatte 1 ya
+v : ok maseh... ditunggu ya 
+
+( pesenan kedua : Matcha Latte)
+
+[ kalo pesanan benar ]
+v : ini matcha latte ny mas 
+d : makasih ya mbak, btw bole minta nomor hp nya ngga? ^^
+v : aduh mas, ini kedai kopi bukan kedai cari jodoh... maaf ya mas
+
+
+[ kalo salah ]
+v : nih mas
+d : aduh mbak, kok pesenan nya gini ya? 
+v : kenapa mas?
+d : ini bukan matcha latte mbak
+v : ya udah bikin sendiri aja mas
+
+< pelanggan ketiga: Ranni >
+
+v : selamat datang di Kopi Metro, mau pesan apa kak?
+r : normal latte 1 mbak
+v : ok ditunggu ya
+
+[ kalo pesanan benar ]
+v : ini kak latte nya 
+r : trimakasih mbak ^^
+v : sama sama kak
+
+[ kalo salah ]
+v : nih pesenan nya kak
+r : ini apa mbak? latte apa ini
+v : itu latte kalau patah semangat mbak
+r : waduh
+
+- end - 
