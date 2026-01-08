@@ -5,6 +5,7 @@ public class Ingredient : MonoBehaviour
 {
     public string ingredientName;
     public int totalInsert;
+    public bool forRoasting;
 
     public Image[] imageCountDisplay;
     public Color imageColor = Color.red;
@@ -17,7 +18,7 @@ public class Ingredient : MonoBehaviour
 		{
             totalInsert++;
 
-            cookingManager.AddMixIngredient();
+            if (!forRoasting) cookingManager.AddMixIngredient();
             imageCountDisplay[totalInsert - 1].color = imageColor;
         }
     }

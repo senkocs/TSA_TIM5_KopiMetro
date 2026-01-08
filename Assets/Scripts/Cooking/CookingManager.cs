@@ -16,9 +16,18 @@ public class CookingManager : MonoBehaviour
 
         public bool milk;
         public bool matcha;
+        public string coffe;
 
         public Recipe[] recipe;
     }
+
+    [System.Serializable]
+    public class RecipeCoffe
+    {
+        public string nameCoffe;
+        public Recipe[] recipe;
+    }
+
     [System.Serializable]
     public class Recipe
 	{
@@ -28,7 +37,13 @@ public class CookingManager : MonoBehaviour
 
     public RecipeData[] recipeData;
 
+    public RecipeCoffe[]recipeCoffe;
+
     public Ingredient[] ingredients;
+
+    public Ingredient[] coffeIngredients;
+
+    public string roastingResult;
 
     public string targetCoffee;
 
@@ -43,7 +58,9 @@ public class CookingManager : MonoBehaviour
     [HideInInspector] public int currentMixIngredientCount;
 
     public Button mixServeButton;
+    public Button roastServeButton;
     public TextMeshProUGUI mixServeText;
+    public TextMeshProUGUI roastServeText;
 
 
     public Toggle milkToogle;
@@ -52,12 +69,14 @@ public class CookingManager : MonoBehaviour
     public DialogueManager dialogueManager;
 
     bool isMixingTrue;
+    bool isRoastingTrue;
     bool isMilkOn;
     bool isMatchaOn;
 
 	private void Start()
 	{
         mixServeButton.onClick.AddListener(Mixing);
+        roastServeButton.onClick.AddListener(Roast);
     }
 
     public void SetCooking(string targetCoffee)
@@ -85,6 +104,8 @@ public class CookingManager : MonoBehaviour
                 if (isMilkOn != recipeData[i].milk)
                     isMixingTrue = false;
                 if (isMatchaOn != recipeData[i].matcha)
+                    isMixingTrue = false;
+                if (roastingResult != recipeData[i].coffe)
                     isMixingTrue = false;
 
 				for (int h = 0; h < recipeData[i].recipe.Length; h++)
@@ -114,6 +135,31 @@ public class CookingManager : MonoBehaviour
             mixBottleImage.sprite = wrongIngredientSprite;
         }
 	}
+
+    public void Roast()
+    {
+        roastingResult = "BadCoffe";
+        bool isRoast = true;
+        for (int i = 0; i < recipeCoffe.Length; i++)
+        {
+            for (int h = 0; h < recipeCoffe[i].recipe.Length; h++)
+            {
+                if (recipeCoffe[i].recipe[h].totalIngredient != GetIngredientCoffe(recipeCoffe[i].recipe[h].nameIngredient).totalInsert)
+                {
+                    isRoast = false;
+                }
+            }
+
+            if (isRoast) 
+            {
+                roastingResult = recipeCoffe[i].nameCoffe;
+            }
+        }
+
+        roastServeText.text = roastingResult;
+        roastServeButton.gameObject.SetActive(false);
+    }
+
 	private void Serve()
 	{
         Debug.Log("Serve");
@@ -122,6 +168,7 @@ public class CookingManager : MonoBehaviour
         ResetMix();
         ResetCooking();
     }
+
     public void ResetMix()
     {
         milkToogle.isOn = false;
@@ -134,6 +181,11 @@ public class CookingManager : MonoBehaviour
             ingredients[i].ResetCountDisplay();
         }
 
+        for (int i = 0; i < coffeIngredients.Length; i++)
+        {
+            coffeIngredients[i].ResetCountDisplay();
+        }
+
 		for (int i = 0; i < mixIngredientsDisplay.Length; i++)
 		{
             mixIngredientsDisplay[i].SetActive(false);
@@ -142,9 +194,12 @@ public class CookingManager : MonoBehaviour
         mixBottleImage.sprite = defaultSprite;
 
         mixServeText.text = "MIX";
+        roastingResult = string.Empty;
+        roastServeText.text = string.Empty;
 
         mixServeButton.onClick.RemoveAllListeners();
         mixServeButton.onClick.AddListener(Mixing);
+        roastServeButton.gameObject.SetActive(true);
     }
 
     public void AddMixIngredient()
@@ -168,6 +223,16 @@ public class CookingManager : MonoBehaviour
 		{
             if (ingredients[i].ingredientName == nameIngredient)
                 return ingredients[i];
+        }
+        return null;
+    }
+
+    Ingredient GetIngredientCoffe(string nameIngredient)
+    {
+        for (int i = 0; i < coffeIngredients.Length; i++)
+		{
+            if (coffeIngredients[i].ingredientName == nameIngredient)
+                return coffeIngredients[i];
         }
         return null;
     }
