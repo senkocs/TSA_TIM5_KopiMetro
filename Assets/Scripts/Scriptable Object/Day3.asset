@@ -1,0 +1,917 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795d00ff077be24ebb69a56faa119d8, type: 3}
+  m_Name: Day3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - image: {fileID: 0}
+    speech: '*Dini hari.. terasa berbeda namun dengan semangat yang sama Salma siap
+      memulai hari ini di toko :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Aku siap untuk hari ini, semoga semuanya lancar :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma pun memulai rutinitas paginya di toko :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Tiba dua pasangan pada pagi itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Dimas membukakan pintu untuk Gisel dan mereka berdua masuk :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Permisi.. :Dimas & Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Silahkan, kakaknya berdua mau pesan apa :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Pesen apa ya sayang? :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Ini aja, kayanya enak :Dimas
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Boleh, kak aku mau Salted Caramelnya 2 ya :Gisel
+    cooking: 1
+    active: 0
+    cookingDialogue:
+      orderName: Salted Caramel Coffe
+      orderImage: {fileID: 0}
+      goodRespon: Ih pilihan kamu bener deh :Gisel
+      badRespon: '*Gisel meminum kopinya dan menatap dimas dengan wajah kesalnya
+        :'
+  - image: {fileID: 0}
+    speech: Kakanya kelihatan keren jadi barista, cocok gitu :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma terkejut karna kali ini ia mendapat pujian seperti itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Makasih yaa.. kalian juga lucu banget :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kakanya udah punya pasangan belum? :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma sedikit sebel dengan pertanyaan menggoda itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Hehe belum.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Ih kamu gasopan nanya begitu ke kakaknya :Dimas
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kan aku mau tau, emangnya gaboleh? :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Tetep aja gasopan :Dimas
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Aduh gapapa kok.. ga perlu berantem :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Aku memang memilih tidak punya pasangan untuk sekarang.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Ohh begitu.. :Dimas & Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Padahal pacaran seru tauu :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Ih kamu tuh :Dimas
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Hehe.. :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Maaf ya kak, kalau pacar aku ga sopan :Dimas
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Iya gapapa kok :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Ayo kita harus ke perpustakaan buat belajar untuk ujian besok :Dimas
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Yuk! :Gisel
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Dimas dan Gisel pun meninggalkan tempat dengan memberi salam kecil
+      menunduk kepada salma :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma pun membalas salam itu dan merasa sedikit geram tapi akhirnya
+      dia tertawa kecil akibat perilaku dua orang itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Tak lama setelah itu tiba pelanggan baru :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Halo, saya mau pesan Mocha nya satu :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Baik ditunggu sebentar ya :Salma
+    cooking: 1
+    active: 0
+    cookingDialogue:
+      orderName: Mocha
+      orderImage: {fileID: 0}
+      goodRespon: '*Raut wajah Syahla memberi respon positif untuk kopinya :'
+      badRespon: '*Syahla menaruh kopinya dan tidak meminumnya lagi :'
+  - image: {fileID: 0}
+    speech: Eh aku suka deh dengan outer kamu, beli dimana kalau aku boleh tau? :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kamu juga lucu kacamatanya, kalau outer ini aku beli di toko seberang
+      yang masih deretan toko kopi ini :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Hihihi.. aku beli ini juga ga jauh dari sini kok :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kamu baru ya disini, aku baru lihat kamu :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Iyaa.. belum lama disini :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kalau orang kaya kamu udah pasti temennya Zeta kan? :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kok tau.. iya aku teman deketnya Zeta :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Tau.. soalnya barista disini sebelumnya gaada yang sepantaran kamu deh
+      kayanya? :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Ohh.. begitu yah, aku baru tau :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Iya.. :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Dikala obrolan mereka berdua berlanjut panjang siang itu, tiba lah
+      pelanggan baru :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Guntur memasuki pintu dengan raut muka yang terasa sedih :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma dan Syahla memerhatikan guntur yang pelan pelan menghampiri meja
+      bar :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Permisi, saya mau Signature nya satu :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Baik.. sebentar ya kak :Salma
+    cooking: 1
+    active: 0
+    cookingDialogue:
+      orderName: Kopi Bara
+      orderImage: {fileID: 0}
+      goodRespon: Terimakasih.. :Guntur
+      badRespon: '*Guntur hanya terdiam setelah disajikan sebuah kopi  *Guntur pindah
+        ke meja di seberang bar dan tidak lama dia meninggalkan toko :'
+  - image: {fileID: 0}
+    speech: Eh keliatannya, kaka itu lagi sedih ga sih :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Iya kali ya.. tapi keliatan sedih sih :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Hmm.. yauda deh kayanya aku mau pulang dulu :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Oh iyaa.. hati hati ya :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kita belum kenalan tau.. aku Syahla, Nama kamu siapa? :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Oiya kenalin, aku Salma :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Okedeh Salma, Kapan kapan aku main kesini lagi ya.. bye bye :Syahla
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Bye bye.. kita ngobrol lagi ya kapan kapan :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Syahla tersenyum lalu meninggalkan tempat itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: "*Selang Syahla keluar dari pintu, Terlihat oleh Salma kalau Syahla seperti
+      berpapasan dengan orang yang ia kenal\r :"
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: "*Lalu orang itu memasuki toko dan segera suasana toko berubah menjadi
+      penuh tekanan untuk Salmal\r :"
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Sore.. :Bambang
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: S-Selamat sore.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kamu baru ya disini? :Bambang
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: I-Iya betul.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Hmm.. yaudah saya mau yang seperti biasa satu :Bambang
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma kebingungan tapi terasa familiar dengan apa yang di sampaikan
+      Zeta 2 hari lalu.. :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma mengambil keputusan ragu tapi berani dan menghampiri mesin kopi
+      untuk segera membuat pesanan pelanggan tersebut :'
+    cooking: 1
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: Saya suka dengan kopi buatan kamu, betah ya disini :Bambang
+      badRespon: '*Bambang meminum kopi tersebut dan menyembur salma   *Bambang menelpon
+        Zeta untuk meminta Zeta membuatkan ulang kopinya  *Zeta tiba dan mengambil
+        alih bar dan meminta Salma untuk membaca ulang guide dan beristirahat :'
+  - image: {fileID: 0}
+    speech: '*Bambang menikmati kopinya tanpa banyak bicara :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Terimakasih untuk kopinya, saya pamit dulu :Bambang
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Terimakasih sudah mampir.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Bambang meninggalkan tempat itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma merasa lega dan mengingat apa yang di sampai kan Zeta pada hari
+      pertama ia bekerja disitu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Jadi itu orangnya yang diceritain sama Zeta ya.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Guntur menghampiri bar dan duduk disana :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Saya mau take away satu kopi :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Bolehh.. sebentar ya :Salma
+    cooking: 1
+    active: 0
+    cookingDialogue:
+      orderName: Signature
+      orderImage: {fileID: 0}
+      goodRespon: '... :'
+      badRespon: '... :'
+  - image: {fileID: 0}
+    speech: '*Sembari menaruh cup kopi kedalam kemasan Salma bertanya :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Kakak mukanya muram, kakaknya gapapa? :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Saya habis di pecat :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma merasa bersalah setelah menanyakan pertanyaan tersebut :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Tapi saya gapapa, memang wajahnya muram seperti ini sedari kecil :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Guntur mencoba tersenyum tapi terasa canggung dan aneh :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma tertawa kecil akan tingkah Guntur :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Tapi kakaknya beneran gapapa? :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Beneran.. mungkin terasa sedih sedikit.. :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Tapi mimpi saya tidak putus disini, saya masih bisa kerja di tempat lain
+      :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Saya akan coba lagi besok, Juga saya tidak punya alasan untuk menyerah..
+      :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Memang kakaknya kerja di bidang apa? :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Saya seorang Arsitek :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Keren banget dong? :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Biasa saja.. :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Mimpi saya adalah untuk bisa menjalani hidup sebaik mungkin dan kalau
+      bisa, Saya mau bantu banyak orang yang membutuhkan juga :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Salma terkesima dan tersenyum oleh perkataan guntur :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Baik saya pergi dulu ya.. Terimakasih kopinya :Guntur
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Terimakasih kembali.. :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Mereka berdua tersenyum.. dan di saat itu yang tadinya senyum Guntur
+      terasa kaku dan aneh menjadi senyum yang terasa penuh semangat dan keren :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: '*Guntur meninggalkan tempat itu :'
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: Aku harus semangat sama seperti kakak itu.. aku juga gamau kalah! :Salma
+    cooking: 0
+    active: 0
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 

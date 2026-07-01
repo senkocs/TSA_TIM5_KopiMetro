@@ -14,8 +14,8 @@ public class CookingManager : MonoBehaviour
 
         public Sprite mixedSprite;
 
-        public bool milk;
-        public bool matcha;
+        public bool ice;
+        public bool coal;
         public string coffe;
 
         public Recipe[] recipe;
@@ -63,15 +63,15 @@ public class CookingManager : MonoBehaviour
     public TextMeshProUGUI roastServeText;
 
 
-    public Toggle milkToogle;
-    public Toggle matchaToogle;
+    public Toggle iceToogle;
+    public Toggle coalToogle;
 
     public DialogueManager dialogueManager;
 
     bool isMixingTrue;
     bool isRoastingTrue;
-    bool isMilkOn;
-    bool isMatchaOn;
+    bool isIceOn;
+    bool isCoalOn;
 
 	private void Start()
 	{
@@ -101,9 +101,9 @@ public class CookingManager : MonoBehaviour
 			{
                 currentRecipe = recipeData[i];
 
-                if (isMilkOn != recipeData[i].milk)
+                if (isIceOn != recipeData[i].ice)
                     isMixingTrue = false;
-                if (isMatchaOn != recipeData[i].matcha)
+                if (isCoalOn != recipeData[i].coal)
                     isMixingTrue = false;
                 if (roastingResult != recipeData[i].coffe)
                     isMixingTrue = false;
@@ -140,24 +140,65 @@ public class CookingManager : MonoBehaviour
     {
         roastingResult = "BadCoffe";
         bool isRoast = true;
-        for (int i = 0; i < recipeCoffe.Length; i++)
-        {
-            for (int h = 0; h < recipeCoffe[i].recipe.Length; h++)
-            {
-                if (recipeCoffe[i].recipe[h].totalIngredient != GetIngredientCoffe(recipeCoffe[i].recipe[h].nameIngredient).totalInsert)
-                {
-                    isRoast = false;
-                }
-            }
+        string targetRoasting = null;
+        int condition = 0;
 
-            if (isRoast) 
+        for (int j = 0; j < recipeData.Length; j++)
+        {
+            if (targetCoffee == recipeData[j].nameRecipe)
             {
-                roastingResult = recipeCoffe[i].nameCoffe;
+                targetRoasting = recipeData[j].coffe;
             }
         }
 
-        roastServeText.text = roastingResult;
-        roastServeButton.gameObject.SetActive(false);
+        for (int i = 0; i < recipeCoffe.Length; i++)
+        {
+            if (targetRoasting == recipeCoffe[i].nameCoffe)
+            {
+                for (int h = 0; h < recipeCoffe[i].recipe.Length; h++)
+                {
+                    if (recipeCoffe[i].recipe[h].totalIngredient != GetIngredientCoffe(recipeCoffe[i].recipe[h].nameIngredient).totalInsert)
+                    {
+                        isRoast = false;
+                        condition++;
+                    }
+                }
+            }
+            else
+            {
+                for (int h = 0; h < recipeCoffe[i].recipe.Length; h++)
+                {
+                    if (recipeCoffe[i].recipe[h].totalIngredient != GetIngredientCoffe(recipeCoffe[i].recipe[h].nameIngredient).totalInsert)
+                    {
+                        condition++;
+                    }
+                }
+            }
+        }
+
+        if (isRoast) 
+        {
+            roastingResult = targetRoasting;
+            roastServeText.text = roastingResult;
+            roastServeButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            if (condition == 4)
+            {
+                roastingResult = targetRoasting;
+                roastServeText.text = "Resep Salah";
+                roastServeButton.gameObject.SetActive(false);
+            }
+            else if (condition == 6)
+            {
+                roastingResult = null;
+                roastServeText.text = "Resep Tidak Ditemukan";
+                roastServeButton.gameObject.SetActive(true);
+
+                ResetRoast();
+            }
+        }
     }
 
 	private void Serve()
@@ -169,10 +210,18 @@ public class CookingManager : MonoBehaviour
         ResetCooking();
     }
 
+    private void ResetRoast()
+    {
+        for (int i = 0; i < coffeIngredients.Length; i++)
+        {
+            coffeIngredients[i].ResetCountDisplay();
+        }
+    }
+
     public void ResetMix()
     {
-        milkToogle.isOn = false;
-        matchaToogle.isOn = false;
+        iceToogle.isOn = false;
+        coalToogle.isOn = false;
 
         currentMixIngredientCount = 0;
 
@@ -208,13 +257,13 @@ public class CookingManager : MonoBehaviour
         mixIngredientsDisplay[currentMixIngredientCount - 1].SetActive(true);
     }
 
-    public void MilkToogle(bool isOn)
+    public void IceToogle(bool isOn)
 	{
-        isMilkOn = isOn;
+        isIceOn = isOn;
 	}
-    public void MatchaToogle(bool isOn)
+    public void CoalToogle(bool isOn)
     {
-        isMatchaOn = isOn;
+        isCoalOn = isOn;
     }
 
     Ingredient GetIngredient(string nameIngredient)

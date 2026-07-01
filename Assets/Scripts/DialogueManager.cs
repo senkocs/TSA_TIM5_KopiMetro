@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,27 +9,7 @@ public class DialogueManager : MonoBehaviour
 {
     DialogueSystem dialogue;
 
-    [System.Serializable]
-    public class Data
-	{
-        public Sprite image;
-        public string speech;
-
-        public bool cooking;
-        public CookingDialogue cookingDialogue;
-	}
-    [System.Serializable]
-    public class CookingDialogue
-	{
-        public string orderName;
-
-        public Sprite orderImage;
-
-        public string goodRespon;
-        public string badRespon;
-	}
-
-    public Data[] dialogueData;
+    public DialogueData dialogueData;
 
     public CanvasGroup cookingGroup;
     public Button speechNextButton;
@@ -37,31 +18,44 @@ public class DialogueManager : MonoBehaviour
     public DialogueSystem dialogueSystem;
 
     public Data dataPlayed;
+    private DaySystem daySystem;
+
+    public GameObject transition;
+    [SerializeField] private GameObject buttonGuide;
 
     bool isMixingTrue;
 
-    int index = 0;
+    internal int index = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         dialogue = DialogueSystem.instance;
-        NextButton();
+
+        daySystem = GetComponent<DaySystem>();
+        //NextButton(); untuk memulai percakapan
     }
 
     public void NextButton()
 	{
         if (!dialogue.isSpeaking || dialogue.isWaitingForUserInput)
         {
-            if (index >= dialogueData.Length)
+            if (index >= dialogueData.dialogue.Length)
             {
 
-                SceneManager.LoadScene("GameOver");
-
+                if (daySystem.day == 3) SceneManager.LoadScene("GameOver");
+                // ganti hari dan jika sudah habis baru masuk ke gameover
+                else
+                {
+                    index = 0;
+                    transition.SetActive(true);
+                }
                 return;
             }
 
-            dataPlayed = dialogueData[index];
+
+            dataPlayed = dialogueData.dialogue[index];
+            if (dataPlayed.active) buttonGuide.SetActive(true);
 
 			if (dataPlayed.cooking)
 			{

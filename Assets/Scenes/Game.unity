@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 57799468}
   - component: {fileID: 57799471}
   m_Layer: 5
-  m_Name: kopi
+  m_Name: ButterScotch Sirup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8356073f504c81e4b9ef121b50e3bcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientName: kopi
+  ingredientName: ButterScotch Sirup
   totalInsert: 0
   forRoasting: 0
   imageCountDisplay:
@@ -448,6 +448,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82950298}
   m_CullTransparentMesh: 1
+--- !u!1 &94539866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 94539867}
+  - component: {fileID: 94539870}
+  - component: {fileID: 94539869}
+  - component: {fileID: 94539868}
+  m_Layer: 5
+  m_Name: Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &94539867
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94539866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 139294285}
+  m_Father: {fileID: 476349532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 35, y: 26}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &94539868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94539866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 94539869}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476349529}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &94539869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94539866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &94539870
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94539866}
+  m_CullTransparentMesh: 1
 --- !u!1 &101811511
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,6 +734,276 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134582107}
   m_CullTransparentMesh: 1
+--- !u!1 &139294284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 139294285}
+  - component: {fileID: 139294287}
+  - component: {fileID: 139294286}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &139294285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139294284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 94539867}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &139294286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139294284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &139294287
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139294284}
+  m_CullTransparentMesh: 1
+--- !u!1 &143739653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143739654}
+  - component: {fileID: 143739656}
+  - component: {fileID: 143739655}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &143739654
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143739653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1782745595}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &143739655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143739653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Guide
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &143739656
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143739653}
+  m_CullTransparentMesh: 1
 --- !u!1 &156638529
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,55 +1049,171 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recipeData:
-  - nameRecipe: Kopi Polos
+  - nameRecipe: ButterScotch
     mixedSprite: {fileID: 21300000, guid: 5c330f1357c6ed94fb14c10624c50b14, type: 3}
-    milk: 0
-    matcha: 0
-    coffe: Kopi
+    ice: 1
+    coal: 0
+    coffe: Sweet Arabica
     recipe:
-    - nameIngredient: kopi
-      totalIngredient: 5
-    - nameIngredient: chocaline
-      totalIngredient: 3
-    - nameIngredient: plumypop
-      totalIngredient: 2
-  - nameRecipe: Matchalatte
-    mixedSprite: {fileID: 21300000, guid: c1492c179d14ebf4fb1fca97a528c3b4, type: 3}
-    milk: 1
-    matcha: 1
-    coffe: 
-    recipe:
-    - nameIngredient: kopi
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 4
+    - nameIngredient: Cholcolate Sirup
       totalIngredient: 0
-    - nameIngredient: chocaline
-      totalIngredient: 2
-    - nameIngredient: plumypop
-      totalIngredient: 2
-  - nameRecipe: Lattebiasa
-    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
-    milk: 1
-    matcha: 0
-    coffe: Arabika
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 0
+    - nameIngredient: Milk
+      totalIngredient: 0
+  - nameRecipe: Spanish Latte
+    mixedSprite: {fileID: 21300000, guid: c1492c179d14ebf4fb1fca97a528c3b4, type: 3}
+    ice: 1
+    coal: 0
+    coffe: Sweet Arabica
     recipe:
-    - nameIngredient: kopi
-      totalIngredient: 3
-    - nameIngredient: chocaline
-      totalIngredient: 3
-    - nameIngredient: plumypop
-      totalIngredient: 2
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 5
+    - nameIngredient: Milk
+      totalIngredient: 0
+  - nameRecipe: Salted Caramel Coffe
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 1
+    coal: 0
+    coffe: Sweet Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 4
+    - nameIngredient: Milk
+      totalIngredient: 0
+  - nameRecipe: Latte
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 0
+    coal: 0
+    coffe: Base Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 0
+    - nameIngredient: Milk
+      totalIngredient: 10
+  - nameRecipe: Dolche
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 0
+    coal: 0
+    coffe: Base Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 7
+    - nameIngredient: Milk
+      totalIngredient: 0
+  - nameRecipe: Mocha
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 1
+    coal: 0
+    coffe: Base Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 4
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 0
+    - nameIngredient: Milk
+      totalIngredient: 0
+  - nameRecipe: Americano
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 1
+    coal: 0
+    coffe: Bitter Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 0
+    - nameIngredient: Milk
+      totalIngredient: 0
+  - nameRecipe: Signature
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 0
+    coal: 0
+    coffe: Bitter Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 0
+    - nameIngredient: Milk
+      totalIngredient: 0
+    - nameIngredient: Ginseng
+      totalIngredient: 5
+  - nameRecipe: Kopi Bara
+    mixedSprite: {fileID: 21300000, guid: 1f5cf7f39227a544182e91dfaf4be81e, type: 3}
+    ice: 0
+    coal: 1
+    coffe: Bitter Arabica
+    recipe:
+    - nameIngredient: ButterScotch Sirup
+      totalIngredient: 0
+    - nameIngredient: Cholcolate Sirup
+      totalIngredient: 0
+    - nameIngredient: Salted Caramel Sirup
+      totalIngredient: 0
+    - nameIngredient: Condensed Milk
+      totalIngredient: 0
+    - nameIngredient: Milk
+      totalIngredient: 0
   recipeCoffe:
-  - nameCoffe: Kopi
+  - nameCoffe: Sweet Arabica
     recipe:
     - nameIngredient: Duration
-      totalIngredient: 3
-    - nameIngredient: Temperatur
+      totalIngredient: 4
+    - nameIngredient: Temperature
       totalIngredient: 5
-  - nameCoffe: Arabika
+  - nameCoffe: Base Arabica
     recipe:
     - nameIngredient: Duration
       totalIngredient: 6
-    - nameIngredient: Temperatur
-      totalIngredient: 2
+    - nameIngredient: Temperature
+      totalIngredient: 7
+  - nameCoffe: Bitter Arabica
+    recipe:
+    - nameIngredient: Duration
+      totalIngredient: 7
+    - nameIngredient: Temperature
+      totalIngredient: 10
   ingredients:
   - {fileID: 57799471}
   - {fileID: 611047099}
@@ -725,8 +1245,8 @@ MonoBehaviour:
   roastServeButton: {fileID: 536554270}
   mixServeText: {fileID: 582605859}
   roastServeText: {fileID: 536554273}
-  milkToogle: {fileID: 1401875811}
-  matchaToogle: {fileID: 1823669520}
+  iceToogle: {fileID: 1401875811}
+  coalToogle: {fileID: 1823669520}
   dialogueManager: {fileID: 785221759}
 --- !u!1 &172924613
 GameObject:
@@ -740,7 +1260,7 @@ GameObject:
   - component: {fileID: 172924616}
   - component: {fileID: 172924615}
   m_Layer: 5
-  m_Name: Karmotrine
+  m_Name: Milk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +1306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: KARMOTRINE
+  m_text: Milk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -875,7 +1395,7 @@ GameObject:
   - component: {fileID: 176475593}
   - component: {fileID: 176475592}
   m_Layer: 5
-  m_Name: matcha (1)
+  m_Name: Coal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -921,7 +1441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MATCHA
+  m_text: Coal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -1145,7 +1665,7 @@ GameObject:
   - component: {fileID: 206360222}
   - component: {fileID: 206360221}
   m_Layer: 5
-  m_Name: plumypop
+  m_Name: Cholcolate Sirup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1191,7 +1711,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PLUMYPOP
+  m_text: Cholcolate Sirup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -1218,8 +1738,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1690,6 +2210,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303200933}
   m_CullTransparentMesh: 1
+--- !u!1 &314828783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314828788}
+  - component: {fileID: 314828787}
+  - component: {fileID: 314828786}
+  - component: {fileID: 314828785}
+  - component: {fileID: 314828784}
+  m_Layer: 5
+  m_Name: Transition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &314828784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314828783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a279e535178e2647bd4e36bc5223a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 785221759}
+  daySystem: {fileID: 785221760}
+  dayText: {fileID: 1703626028}
+--- !u!95 &314828785
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314828783}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9dd845b55cb2c9a4482feeb4617ce7e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &314828786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314828783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &314828787
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314828783}
+  m_CullTransparentMesh: 1
+--- !u!224 &314828788
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314828783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1703626030}
+  m_Father: {fileID: 1775007522}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &323426001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,7 +2414,7 @@ GameObject:
   - component: {fileID: 336237306}
   - component: {fileID: 336237309}
   m_Layer: 5
-  m_Name: karmotrine
+  m_Name: Milk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1923,7 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8356073f504c81e4b9ef121b50e3bcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientName: karmotrine
+  ingredientName: Milk
   totalInsert: 0
   forRoasting: 0
   imageCountDisplay:
@@ -2319,6 +2953,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431397803}
   m_CullTransparentMesh: 1
+--- !u!1 &476349529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476349532}
+  - component: {fileID: 476349531}
+  - component: {fileID: 476349530}
+  m_Layer: 5
+  m_Name: Guide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &476349530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476349529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &476349531
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476349529}
+  m_CullTransparentMesh: 1
+--- !u!224 &476349532
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476349529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 94539867}
+  m_Father: {fileID: 1775007522}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &528908967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,7 +3042,7 @@ GameObject:
   - component: {fileID: 528908970}
   - component: {fileID: 528908969}
   m_Layer: 5
-  m_Name: kopi
+  m_Name: ButterScotch Sirup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2377,7 +3088,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: COFFEE
+  m_text: ButterScotch Sirup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -2404,8 +3115,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 19
+  m_fontSizeBase: 19
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2605,7 +3316,7 @@ PrefabInstance:
       objectReference: {fileID: 156638531}
     - target: {fileID: 2201498432715903313, guid: fb4b2bc9f24fd5e47967bab851f890af, type: 3}
       propertyPath: ingredientName
-      value: Temperatur
+      value: Temperature
       objectReference: {fileID: 0}
     - target: {fileID: 3007983374042761327, guid: fb4b2bc9f24fd5e47967bab851f890af, type: 3}
       propertyPath: m_LocalScale.x
@@ -2726,6 +3437,10 @@ PrefabInstance:
     - target: {fileID: 7814135629839788163, guid: fb4b2bc9f24fd5e47967bab851f890af, type: 3}
       propertyPath: m_margin.z
       value: -193.1041
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814135629839788164, guid: fb4b2bc9f24fd5e47967bab851f890af, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 403.99
       objectReference: {fileID: 0}
     - target: {fileID: 7814135629839788164, guid: fb4b2bc9f24fd5e47967bab851f890af, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3389,7 +4104,7 @@ GameObject:
   - component: {fileID: 611047096}
   - component: {fileID: 611047099}
   m_Layer: 5
-  m_Name: plumypop
+  m_Name: Cholcolate Sirup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3532,7 +4247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8356073f504c81e4b9ef121b50e3bcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientName: plumypop
+  ingredientName: Cholcolate Sirup
   totalInsert: 0
   forRoasting: 0
   imageCountDisplay:
@@ -3883,6 +4598,7 @@ GameObject:
   - component: {fileID: 785221757}
   - component: {fileID: 785221758}
   - component: {fileID: 785221759}
+  - component: {fileID: 785221760}
   m_Layer: 0
   m_Name: DialogueSystem
   m_TagString: Untagged
@@ -3934,160 +4650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35361eb0c12e6346a29cc0192a7ad18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData:
-  - image: {fileID: 0}
-    speech: 'Selamat pagi bos...: Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: 
-      orderImage: {fileID: 0}
-      goodRespon: 
-      badRespon: 
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Pagi Vivy, oiya hari ini kita akan tutup lebih awal ya: Bos'
-    cooking: 0
-    cookingDialogue:
-      orderName: 
-      orderImage: {fileID: 0}
-      goodRespon: 
-      badRespon: 
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Lo kenapa? jangan bilang harga mie instan naik ya: Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: 
-      orderImage: {fileID: 0}
-      goodRespon: 
-      badRespon: 
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Bukaan, nanti saya pengen liburan ke luar negri Vivy. Jdi kalian saya
-      liburkan juga biar sama sama libur: Bos'
-    cooking: 0
-    cookingDialogue:
-      orderName: 
-      orderImage: {fileID: 0}
-      goodRespon: 
-      badRespon: 
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Wah, bos emang terbaik, jdi makin sayang : Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: 
-      orderImage: {fileID: 0}
-      goodRespon: 
-      badRespon: 
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Maaf, kamu saya tolak soalnya saya ngga suka cewe : Bos'
-    cooking: 0
-    cookingDialogue:
-      orderName: 
-      orderImage: {fileID: 0}
-      goodRespon: 
-      badRespon: 
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Noooooo...: Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: 21300000, guid: ffab79a2a35be5a43a59a84f97165caa, type: 3}
-      goodRespon: MANTAPP vosssss :Boss
-      badRespon: UEKKKK:Boss
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Udah mending kamu kerja, skalian buatin kopi polos ya: Bos'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: 21300000, guid: ffab79a2a35be5a43a59a84f97165caa, type: 3}
-      goodRespon: MANTAPP vosssss :Boss
-      badRespon: UEKKKK:Boss
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Ok Zana: Vivy'
-    cooking: 1
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: 'Emang barista terbaik kamu vi ^^ : Bos'
-      badRespon: 'Ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur: Bos'
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'Aduh jadi malu : Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-    speech: 'hadeh... : Bos'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: 0}
-    speech: 'Selamat datang di Kopi Metro, mau pesan apa mas? : Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: 1179269233, guid: 682e80d715fc62b49b73441b1c819b2a, type: 3}
-    speech: 'Anu mbak, matchalatte 1 ya : Dimas'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: 1179269233, guid: 682e80d715fc62b49b73441b1c819b2a, type: 3}
-    speech: 'Ok maseh... ditunggu ya : Vivy'
-    cooking: 1
-    cookingDialogue:
-      orderName: Matchalatte
-      orderImage: {fileID: 1179269233, guid: 682e80d715fc62b49b73441b1c819b2a, type: 3}
-      goodRespon: 'Makasih ya mbak, btw bole minta nomor hp nya ngga? ^^ : Dimas'
-      badRespon: 'Aduh mbak, kok pesenan nya gini ya?: Dimas'
-  - image: {fileID: 1179269233, guid: 682e80d715fc62b49b73441b1c819b2a, type: 3}
-    speech: '...  : Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: 0}
-    speech: 'Selamat datang di Kopi Metro, mau pesan apa kak?  : Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: 977134622, guid: 08dab0a22060a24499d6df0b36ca3ed4, type: 3}
-    speech: 'Normal latte 1 mbak : Ranni'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
-  - image: {fileID: 977134622, guid: 08dab0a22060a24499d6df0b36ca3ed4, type: 3}
-    speech: 'Ok ditunggu ya : Vivy'
-    cooking: 1
-    cookingDialogue:
-      orderName: Lattebiasa
-      orderImage: {fileID: 977134622, guid: 08dab0a22060a24499d6df0b36ca3ed4, type: 3}
-      goodRespon: 'Trimakasih mbak ^^ : Ranni'
-      badRespon: 'latte apa ini? : Ranni'
-  - image: {fileID: 977134622, guid: 08dab0a22060a24499d6df0b36ca3ed4, type: 3}
-    speech: 'hehe...  : Vivy'
-    cooking: 0
-    cookingDialogue:
-      orderName: Kopi Polos
-      orderImage: {fileID: -535721859, guid: 18ee0727751c4f64e8df7a9d8ff0b51f, type: 3}
-      goodRespon: emang barista terbaik kamu vi ^^ :Boss
-      badRespon: ini apa vi? ko gini? kamu ini masi pagi masih aja ngelantur:Boss
+  dialogueData: {fileID: 0}
   cookingGroup: {fileID: 1198146485}
   speechNextButton: {fileID: 840673391}
   cookingManager: {fileID: 156638531}
@@ -4096,11 +4659,31 @@ MonoBehaviour:
     image: {fileID: 0}
     speech: 
     cooking: 0
+    active: 0
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
+  transition: {fileID: 314828783}
+  buttonGuide: {fileID: 1782745594}
+--- !u!114 &785221760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785221756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bec36ff33943e48ac9e025ca4b3404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  day: 0
+  dialogueDatas:
+  - {fileID: 11400000, guid: 50492b032e8788d49b0048244df2819b, type: 2}
+  - {fileID: 11400000, guid: ea6283da18926504b8a0e420ba8f9a23, type: 2}
+  - {fileID: 11400000, guid: 88ad166dfae4c88489f5a3824024be23, type: 2}
 --- !u!1 &787348876
 GameObject:
   m_ObjectHideFlags: 0
@@ -7151,7 +7734,7 @@ GameObject:
   - component: {fileID: 1401875812}
   - component: {fileID: 1401875811}
   m_Layer: 0
-  m_Name: Susu
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7227,15 +7810,15 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 156638531}
         m_TargetAssemblyTypeName: CookingManager, Assembly-CSharp
-        m_MethodName: MilkToogle
-        m_Mode: 0
+        m_MethodName: IceToogle
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   m_IsOn: 1
 --- !u!114 &1401875812
@@ -7423,7 +8006,7 @@ GameObject:
   - component: {fileID: 1428405950}
   - component: {fileID: 1428405949}
   m_Layer: 5
-  m_Name: milk
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7469,7 +8052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MILK
+  m_text: Ice
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -7981,7 +8564,7 @@ GameObject:
   - component: {fileID: 1450985743}
   - component: {fileID: 1450985746}
   m_Layer: 5
-  m_Name: vlarenide
+  m_Name: Condensed Milk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8124,7 +8707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8356073f504c81e4b9ef121b50e3bcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientName: vlarenide
+  ingredientName: Condensed Milk
   totalInsert: 0
   forRoasting: 0
   imageCountDisplay:
@@ -8152,7 +8735,7 @@ GameObject:
   - component: {fileID: 1459713304}
   - component: {fileID: 1459713303}
   m_Layer: 5
-  m_Name: Vlarenide
+  m_Name: Condensed Milk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8198,7 +8781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VLARENIDE
+  m_text: Condensed Milk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -8225,8 +8808,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8575,7 +9158,7 @@ GameObject:
   - component: {fileID: 1563387045}
   - component: {fileID: 1563387048}
   m_Layer: 5
-  m_Name: chocaline
+  m_Name: Salted Caramel Sirup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8718,7 +9301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8356073f504c81e4b9ef121b50e3bcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientName: chocaline
+  ingredientName: Salted Caramel Sirup
   totalInsert: 0
   forRoasting: 0
   imageCountDisplay:
@@ -9172,6 +9755,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679868844}
   m_CullTransparentMesh: 1
+--- !u!1 &1703626027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703626030}
+  - component: {fileID: 1703626029}
+  - component: {fileID: 1703626028}
+  m_Layer: 5
+  m_Name: Day
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1703626028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703626027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1703626029
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703626027}
+  m_CullTransparentMesh: 1
+--- !u!224 &1703626030
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703626027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 314828788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 400, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1770940984
 GameObject:
   m_ObjectHideFlags: 0
@@ -9353,6 +10071,9 @@ RectTransform:
   - {fileID: 1444539345}
   - {fileID: 677857596}
   - {fileID: 686784455}
+  - {fileID: 1782745595}
+  - {fileID: 314828788}
+  - {fileID: 476349532}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9374,6 +10095,140 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audiomixer: {fileID: 24100000, guid: dbefbe9dbf5af1b458a78927f66e6fd6, type: 2}
+--- !u!1 &1782745594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1782745595}
+  - component: {fileID: 1782745598}
+  - component: {fileID: 1782745597}
+  - component: {fileID: 1782745596}
+  m_Layer: 5
+  m_Name: Button guide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1782745595
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782745594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 143739654}
+  m_Father: {fileID: 1775007522}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 116, y: -28}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1782745596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782745594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1782745597}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476349529}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &1782745597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782745594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1782745598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782745594}
+  m_CullTransparentMesh: 1
 --- !u!1 &1821817753
 GameObject:
   m_ObjectHideFlags: 0
@@ -9463,7 +10318,7 @@ GameObject:
   - component: {fileID: 1823669521}
   - component: {fileID: 1823669520}
   m_Layer: 0
-  m_Name: matcha
+  m_Name: Coal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9539,15 +10394,15 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 156638531}
         m_TargetAssemblyTypeName: CookingManager, Assembly-CSharp
-        m_MethodName: MatchaToogle
-        m_Mode: 0
+        m_MethodName: CoalToogle
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   m_IsOn: 1
 --- !u!114 &1823669521
@@ -9676,7 +10531,7 @@ GameObject:
   - component: {fileID: 1860670259}
   - component: {fileID: 1860670258}
   m_Layer: 5
-  m_Name: chocaline
+  m_Name: Salted Caramel Sirup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9722,7 +10577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CHOCALINE
+  m_text: Salted Caramel Sirup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -9749,8 +10604,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
