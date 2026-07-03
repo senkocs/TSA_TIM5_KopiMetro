@@ -16,6 +16,7 @@ public class CookingManager : MonoBehaviour
 
         public bool ice;
         public bool coal;
+        public bool ginseng;
         public string coffe;
 
         public Recipe[] recipe;
@@ -63,8 +64,13 @@ public class CookingManager : MonoBehaviour
     public TextMeshProUGUI roastServeText;
 
 
+    [Header("Toggle")]
     public Toggle iceToogle;
+    public TextMeshProUGUI iceText;
     public Toggle coalToogle;
+    public TextMeshProUGUI coalText;
+    public Toggle ginsengToogle;
+    public TextMeshProUGUI ginsengText;
 
     public DialogueManager dialogueManager;
 
@@ -72,11 +78,15 @@ public class CookingManager : MonoBehaviour
     bool isRoastingTrue;
     bool isIceOn;
     bool isCoalOn;
+    bool isGinsengOn;
+
+    [SerializeField] RecipeData currentRecipe;
 
 	private void Start()
 	{
         mixServeButton.onClick.AddListener(Mixing);
         roastServeButton.onClick.AddListener(Roast);
+        roastServeButton.onClick.AddListener(dialogueManager.SetCanvas);
     }
 
     public void SetCooking(string targetCoffee)
@@ -93,7 +103,7 @@ public class CookingManager : MonoBehaviour
     public void Mixing()
 	{
         isMixingTrue = true;
-        RecipeData currentRecipe = null;
+        currentRecipe = null;
 
 		for (int i = 0; i < recipeData.Length; i++)
 		{
@@ -104,6 +114,8 @@ public class CookingManager : MonoBehaviour
                 if (isIceOn != recipeData[i].ice)
                     isMixingTrue = false;
                 if (isCoalOn != recipeData[i].coal)
+                    isMixingTrue = false;
+                if (isGinsengOn != recipeData[i].ginseng)
                     isMixingTrue = false;
                 if (roastingResult != recipeData[i].coffe)
                     isMixingTrue = false;
@@ -139,6 +151,7 @@ public class CookingManager : MonoBehaviour
     public void Roast()
     {
         roastingResult = "BadCoffe";
+        roastServeText.text = roastingResult;
         bool isRoast = true;
         string targetRoasting = null;
         int condition = 0;
@@ -196,32 +209,53 @@ public class CookingManager : MonoBehaviour
                 roastServeText.text = "Resep Tidak Ditemukan";
                 roastServeButton.gameObject.SetActive(true);
 
-                ResetRoast();
+                for (int i = 0; i < coffeIngredients.Length; i++)
+                {
+                    coffeIngredients[i].ResetCountDisplay();
+                }
             }
         }
+
+        Debug.Log(condition + ", " + isRoast);
     }
 
 	private void Serve()
 	{
         Debug.Log("Serve");
         dialogueManager.CookingRespon(isMixingTrue);
+        dialogueManager.roastButton.SetActive(false);
+        dialogueManager.cookingGroup.interactable = false;
 
         ResetMix();
         ResetCooking();
+        currentRecipe = new RecipeData();
     }
 
-    private void ResetRoast()
+    public void ResetRoast()
     {
         for (int i = 0; i < coffeIngredients.Length; i++)
         {
             coffeIngredients[i].ResetCountDisplay();
         }
+
+        roastingResult = null;
+        roastServeText.text = "";
+        roastServeButton.gameObject.SetActive(true);
     }
 
     public void ResetMix()
     {
         iceToogle.isOn = false;
         coalToogle.isOn = false;
+        ginsengToogle.isOn = false;
+
+        isIceOn = false;
+        isCoalOn = false;
+        isGinsengOn = false;
+        
+        iceText.color = Color.white;
+        coalText.color = Color.white;
+        ginsengText.color = Color.white;
 
         currentMixIngredientCount = 0;
 
@@ -243,12 +277,14 @@ public class CookingManager : MonoBehaviour
         mixBottleImage.sprite = defaultSprite;
 
         mixServeText.text = "MIX";
-        roastingResult = string.Empty;
-        roastServeText.text = string.Empty;
+        roastingResult = null;
+        roastServeText.text = "";
 
         mixServeButton.onClick.RemoveAllListeners();
         mixServeButton.onClick.AddListener(Mixing);
         roastServeButton.gameObject.SetActive(true);
+
+        Debug.Log(isIceOn);
     }
 
     public void AddMixIngredient()
@@ -260,10 +296,17 @@ public class CookingManager : MonoBehaviour
     public void IceToogle(bool isOn)
 	{
         isIceOn = isOn;
+        iceText.color = Color.green;
 	}
     public void CoalToogle(bool isOn)
     {
         isCoalOn = isOn;
+        coalText.color = Color.green;
+    }
+    public void GinsengToogle(bool isOn)
+    {
+        isGinsengOn = isOn;
+        ginsengText.color = Color.green;
     }
 
     Ingredient GetIngredient(string nameIngredient)

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DaySystem : MonoBehaviour
 {
-    public int day = 1;
+    public int day;
 
     public DialogueData[] dialogueDatas;
+    public AudioClip[] audioClips;
 }

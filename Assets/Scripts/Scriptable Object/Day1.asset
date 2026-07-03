@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - image: {fileID: 0}
-    speech: 'Dipagi hari, Salma tiba di cafenya zeta sekaligus menjadi hari pertamanya
-      bekerja di cafe tersebut : '
+    speech: Dipagi hari, Salma tiba di cafenya zeta sekaligus menjadi hari pertamanya
+      bekerja di cafe tersebut :narrator
     cooking: 0
     active: 0
     cookingDialogue:
@@ -24,7 +24,7 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '(( suara pintu terbuka menandakan tibanya salma )) : '
+    speech: (( suara pintu terbuka menandakan tibanya salma )) :narrator
     cooking: 0
     active: 0
     cookingDialogue:
@@ -33,7 +33,7 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "\u2026 : "
+    speech: "\u2026 :narrator"
     cooking: 0
     active: 0
     cookingDialogue:
@@ -136,7 +136,7 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "(( Zeta lalu mengarahkan Salma untuk pergi ke area gudang untuk memberikan
-      Salma perlengkapan selama kerja cafe ini ))\r\n :"
+      Salma perlengkapan selama kerja cafe ini ))\r\n :narrator"
     cooking: 0
     active: 0
     cookingDialogue:
@@ -145,7 +145,7 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "\u2026\r :"
+    speech: "\u2026\r :narrator"
     cooking: 0
     active: 0
     cookingDialogue:
@@ -154,8 +154,9 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "(( Mereka kembali dengan Salma mengenakan perlengkapan barunya ))\r\n
-      :"
+    speech: '(( Mereka kembali dengan Salma mengenakan perlengkapan barunya ))
+
+      :narrator'
     cooking: 0
     active: 0
     cookingDialogue:
@@ -184,7 +185,7 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: '*Tawa kecil dari mereka berdua pun menggema samar samar di depan bar
-      cafe itu : '
+      cafe itu :narrator'
     cooking: 0
     active: 0
     cookingDialogue:
@@ -193,8 +194,8 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: 'Kalau gitu karna lo belom paham apa apa nih soal semuanya yang ada disini
-      : Zeta'
+    speech: Kalau gitu karna lo belom paham apa apa nih soal semuanya yang ada disini
+      :Zeta
     cooking: 0
     active: 0
     cookingDialogue:
@@ -203,8 +204,8 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: 'Lo perhatikan dan pahami dengan baik semua instruksi gue ya, Gue tau
-      lo pasti lansung bisa : Zeta'
+    speech: Lo perhatikan dan pahami dengan baik semua instruksi gue ya, Gue tau
+      lo pasti lansung bisa :Zeta
     cooking: 0
     active: 1
     cookingDialogue:
@@ -213,9 +214,9 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "*Salma mengangguk dan terlihat bersemangat\r : "
+    speech: "*Salma mengangguk dan terlihat bersemangat\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -223,9 +224,9 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "Harapan gue lo udah paham setelah mulut gue mulai berbusa ngejelasin
-      semuanya ke lo, Sekarang gue mau lo buatkan gue 1 Coffee Latte\r : Zeta"
+      semuanya ke lo, Sekarang gue mau lo buatkan gue 1 Coffee Latte\r :Zeta"
     cooking: 1
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: Latte
       orderImage: {fileID: 0}
@@ -236,9 +237,9 @@ MonoBehaviour:
     speech: "Intinya, Menu disini ada banyak.. Lo harus bisa jaga konsistensi rasanya
       karna image dari toko ini ya dari rasanya yang konsisten dan lo salah satu
       pelanggan tetap disini lumayan galak kalau kopinya ga sesuai dengan kemauannya\r
-      : Zeta"
+      :Zeta"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -246,19 +247,18 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "Ya intinya lo harus bisa terbiasa dengan resep resep disini dan saran
-      dari gue semangat trus deh\r\r : Zeta"
+      dari gue semangat trus deh\r\r :Zeta"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "Makasih ya Zeta untuk ilmunya, Aku janji ga bakal ngecewain kamu\r :
-      Salma"
+    speech: "Makasih ya Zeta untuk ilmunya, Aku janji ga bakal ngecewain kamu\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -266,18 +266,18 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: '*Zeta mengangguk dan pergi, Dan mempercayai toko pada Salma hari itu
-      :'
+      :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "CUSTOMER 1 DAY 1 BAYU\r :"
+    speech: "CUSTOMER 1 DAY 1 BAYU\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -285,9 +285,9 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "(( suara pintu geser yang berdecit karna bukannya di geser melainkan
-      di dorong ))\r :"
+      di dorong ))\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -295,9 +295,9 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "*Bayu masuk dengan wajah khawatir setelah apa yang dia lakukan pada
-      pintu\r :"
+      pintu\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -306,7 +306,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Aduh maaf ya mba, Saya pikir pintunya didorong\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -315,7 +315,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Eh iya gapapa..\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -324,7 +324,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Aduh, eh itu saya mau pesan kopi mba\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -333,17 +333,17 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Boleh silahkan dilihat dulu menunya\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: "*Salma yang canggung karena hari pertama dan Bayu yang kebingungan membuat\r\n
-      suasana canggung di bar bertebaran\r\r :"
+    speech: "*Salma yang canggung karena hari pertama dan Bayu yang kebingungan membuat\r\nsuasana
+      canggung di bar bertebaran\r\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -353,7 +353,7 @@ MonoBehaviour:
     speech: "Kamu gapapa kan, Kamu keliatan kebingungan sedari tadi.. mau cerita
       ke aku? aku bakal dengerin kok\r\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -362,7 +362,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Emangnya gapapa?\r\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -371,7 +371,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Gapapa kok\r\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -383,7 +383,7 @@ MonoBehaviour:
       Selama kuliah aku stres banget mengikuti pembelajarannya tapi demi keluargaku
       yang menaruh harapan ke aku, Aku ga boleh ngecewain mereka\r\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -395,7 +395,7 @@ MonoBehaviour:
       Orang Tua ku kalau mereka terus terusan ngasih aku uang jajan, Tapi aku sendirinya
       udah dewasa\r\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -403,9 +403,9 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "*Salma dengan perasaan campur aduk mendengar situasi bayu hanya bisa
-      tertegun\r\r :"
+      tertegun\r\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -415,7 +415,7 @@ MonoBehaviour:
     speech: "Kamu keren banget tau, orang tua kamu pasti bangga sama kamu kalau mereka
       dengar ini\r\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -427,7 +427,7 @@ MonoBehaviour:
       terbaik untuk tetap bertahan juga mengusahakan yang baik untuk keluarga kamu\r
       :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -436,7 +436,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Semangat terus ya mas nya..\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -444,9 +444,9 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "*Bayu tersenyum tenang, respon dari salma membuatnya lega karena rasa
-      tervalidasi atas semua kerja kerasnya\r :"
+      tervalidasi atas semua kerja kerasnya\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -455,7 +455,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Terimakasih banyak ya\u2026\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -464,7 +464,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Perkataan kamu bener bener berarti buat aku\r :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -473,7 +473,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "Sama sama mas!\r :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -481,9 +481,9 @@ MonoBehaviour:
       badRespon: 
   - image: {fileID: 0}
     speech: "*Bayu pun teringat tujuannya kesini karna ingin mencoba kopi dari cafe
-      ini\r :"
+      ini\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -492,7 +492,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Kalau gitu aku mau pesen kopinya :Bayu
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -501,16 +501,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Boleh disebelah sini untuk menunya :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Salma mengarahkan telunjuknya ke arah menu sambil tersenyum :'
+    speech: '*Salma mengarahkan telunjuknya ke arah menu sambil tersenyum :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -519,7 +519,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: (Aduh pesen apa ya) :Bayu
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -528,7 +528,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "\u2026 :Bayu"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -537,7 +537,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Buwertersekot nya satu :Bayu
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -546,7 +546,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Buweter apa tadi? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -555,7 +555,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: "\u2026 :Salma"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -564,16 +564,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Oh! Butterscotch maksudnya? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Muka Bayu memerah :'
+    speech: '*Muka Bayu memerah :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -582,7 +582,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Iya itu :Bayu
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -591,16 +591,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Hahaha Baik, Sebentar ya.. :Salma
     cooking: 1
-    active: 0
+    active: 1
     cookingDialogue:
-      orderName: ButterScotch
+      orderName: Butter Scotch
       orderImage: {fileID: 0}
       goodRespon: Wah.. aku gatau kalau butterscotch rasanya seenak ini :Bayu
       badRespon: (Aduh kok rasanya kaya gini ya..) :Bayu
   - image: {fileID: 0}
-    speech: '*Bayu mengangguk dan meninggalkan cafe :'
+    speech: '*Bayu mengangguk dan meninggalkan cafe :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -609,25 +609,25 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Terimakasih sudah mampir, Datang lagi ya! :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: 'CUSTOMER 2 DAY 1 LIDYA :'
+    speech: CUSTOMER 2 DAY 1 LIDYA :narrator
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*terlihat siluet familiar yang masuk dari pintu cafe :'
+    speech: '*terlihat siluet familiar yang masuk dari pintu cafe :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -636,16 +636,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: SALMAAAAAAAAAAAAAAAAA :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Salma terkejut melihat sahabatnya hadir di tempat kerjanya :'
+    speech: '*Salma terkejut melihat sahabatnya hadir di tempat kerjanya :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -654,7 +654,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Kok kamu ada disini lid? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -664,7 +664,7 @@ MonoBehaviour:
     speech: Hehehe iya dongg, aku diberitahu Zeta kalau kamu hari ini mulai kerja
       disini :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -673,7 +673,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Makasih ya kamu udah mau repot repot datang kesini :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -682,7 +682,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Kan sesama teman se perjuangan kuliah dulu harus solid dong :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -691,7 +691,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Coba, aku mau ngerasain minuman buatan kamu :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -700,7 +700,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: ES JERUK SATU! :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -709,16 +709,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Disini cuman jual kopi.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Lidya tersipu malu dan tertawa kecil :'
+    speech: '*Lidya tersipu malu dan tertawa kecil :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -727,7 +727,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Yaudah deh aku pesen kopi yang enak menurut kamu deh :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -736,7 +736,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Kalau gitu aku bikinin mocha yah buat kamu :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -745,7 +745,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Okayy, Aku percaya sama kamu :Lidya
     cooking: 1
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: Mocha
       orderImage: {fileID: 0}
@@ -754,7 +754,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Yaudah kamu semangat kerjanya yah.. :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -763,7 +763,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Aku mau pergi kerja duluu :Lidya
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -772,7 +772,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Iya makasih ya Lidya, udah sempetin dateng kesini nemuin aku.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -781,43 +781,43 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Kamu semangat juga yah! :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Lidya pun pergi meninggalkan Salma karna harus berangkat kerja :'
+    speech: '*Lidya pun pergi meninggalkan Salma karna harus berangkat kerja :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: 'CUSTOMER DAY 1 SULTON ( last customer day 1 ) :'
+    speech: CUSTOMER DAY 1 SULTON ( last customer day 1 ) :narrator
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*di penghujung hari pertama kerja salma, :'
+    speech: '*di penghujung hari pertama kerja salma, :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '(( suara pintu )) :'
+    speech: (( suara pintu )) :narrator
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -826,7 +826,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Selamat datang di coffee metro :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -835,7 +835,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Sore, ka aku mau pesan kopi :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -844,16 +844,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Boleh, silahkan dilihat dulu menu nya :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Sulton melirik ke arah menu dan memutuskan memilih satu minuman :'
+    speech: '*Sulton melirik ke arah menu dan memutuskan memilih satu minuman :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -862,7 +862,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Aku mau spanish latte nya satu :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -871,7 +871,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Baik ditunggu sebentar yaa.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -880,7 +880,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Eh, kak mau nanya.. disini tersedia Intern/Part-Time ngga yah? :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -890,7 +890,7 @@ MonoBehaviour:
     speech: Eh? kalau itu aku kurang tau.. soalnya aku juga baru hari pertama disini
       :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -899,7 +899,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Aduh.. begitu ya :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -908,7 +908,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Maaf ya.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -917,16 +917,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Gapapa kak.. :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Sulton bergumam aduh gimana yah biar bisa Part-Time :'
+    speech: '*Sulton bergumam aduh gimana yah biar bisa Part-Time :narrator'
     cooking: 1
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: Spanish Latte
       orderImage: {fileID: 0}
@@ -937,7 +937,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Aduh.. :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -946,7 +946,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: ??? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -955,7 +955,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Ka, kamu ada saran ga buat aku supaya aku bisa dapetin magang? :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -965,7 +965,7 @@ MonoBehaviour:
     speech: Kamu coba ini deh, pakai aplikasi SeekJob atau liat penawaran di sosial
       media :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -975,7 +975,7 @@ MonoBehaviour:
     speech: Trus ada baiknya kalau kamu udah siapin data data yang diperluin untuk
       ngelamar magang atau kerja paruh waktunya :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -984,16 +984,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Harusnya kalau data data sih kamu pasti udah kamu siapin kan? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '... :'
+    speech: ... :narrator
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Hehe belum.. :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     speech: Loh? kamu harus siapin tau, supaya kalau kamu interview di tempat kamu
       cari.. bisa sat set :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Begitu yah.. astaga aku ga kepikiran sama sekali :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1031,7 +1031,7 @@ MonoBehaviour:
     speech: Kalau gitu besok aku bakalan coba saran kamu sekaligus juga coba cari
       lagi ditempat lain :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1040,16 +1040,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Berarti malam ini, aku harus siapin semuanya :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Sulton tersenyum excited :'
+    speech: '*Sulton tersenyum excited :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Semangat yah.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Thankyou ka, aku pamit dulu yah.. :Sulthon
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -1076,16 +1076,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Datang lagi yah, semangat cari kerja paruh waktunya :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: '*Hari itu ditutup dengan sulton sebagai customer terakhir :'
+    speech: '*Hari itu ditutup dengan sulton sebagai customer terakhir :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}

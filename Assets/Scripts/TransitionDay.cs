@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TransitionDay : MonoBehaviour
 {
+    [SerializeField] private AudioSource audioSource;
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private DaySystem daySystem;
     [SerializeField] private TextMeshProUGUI dayText;
@@ -12,6 +13,8 @@ public class TransitionDay : MonoBehaviour
     public void StartTransition()
     {
         daySystem.day++;
+        audioSource.clip = daySystem.audioClips[daySystem.day - 1];
+        audioSource.Play();
         dialogueManager.dialogueData = daySystem.dialogueDatas[daySystem.day - 1];
         dayText.text = "Day " + daySystem.day.ToString();
     }

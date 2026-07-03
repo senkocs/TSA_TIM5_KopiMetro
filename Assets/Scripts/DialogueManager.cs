@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
 
     public DialogueData dialogueData;
 
+    public GameObject roastButton;
     public CanvasGroup cookingGroup;
     public Button speechNextButton;
 
@@ -55,18 +56,18 @@ public class DialogueManager : MonoBehaviour
 
 
             dataPlayed = dialogueData.dialogue[index];
-            if (dataPlayed.active) buttonGuide.SetActive(true);
+            buttonGuide.SetActive(dataPlayed.active);
 
 			if (dataPlayed.cooking)
 			{
-                cookingGroup.interactable = true;
+                roastButton.SetActive(true);
                 speechNextButton.interactable = false;
 
                 cookingManager.SetCooking(dataPlayed.cookingDialogue.orderName);
             }
 			else
 			{
-                cookingGroup.interactable = false;
+                roastButton.SetActive(false);
             }
 
             Say(dataPlayed, false);
@@ -82,6 +83,11 @@ public class DialogueManager : MonoBehaviour
 
         speechNextButton.interactable = true;
         cookingGroup.interactable = false;
+    }
+
+    public void SetCanvas()
+    {
+        cookingGroup.interactable = true;
     }
 
     void Say(Data dataDialogue, bool isRespon)
