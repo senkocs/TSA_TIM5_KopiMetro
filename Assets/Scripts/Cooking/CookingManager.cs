@@ -222,6 +222,7 @@ public class CookingManager : MonoBehaviour
 	private void Serve()
 	{
         Debug.Log("Serve");
+        if (targetCoffee == "Random") isMixingTrue = true;
         dialogueManager.CookingRespon(isMixingTrue);
         dialogueManager.roastButton.SetActive(false);
         dialogueManager.cookingGroup.interactable = false;

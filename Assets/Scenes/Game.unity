@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cholcolate Sirup
+  m_text: Cholcolate Syrup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -2459,7 +2459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &314828784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3763,7 +3763,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ButterScotch Sirup
+  m_text: ButterScotch Syrup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
@@ -5486,8 +5486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 659, y: 351}
-  m_SizeDelta: {x: 256, y: 256}
+  m_AnchoredPosition: {x: 663.9, y: 349.6}
+  m_SizeDelta: {x: 305.53, y: 305.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908024013
 MonoBehaviour:
@@ -11216,7 +11216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salted Caramel Sirup
+  m_text: Salted Caramel Syrup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}
   m_sharedMaterial: {fileID: -5784005231608146083, guid: 1473443c9c3492343b1b81b4043ac0a9, type: 2}

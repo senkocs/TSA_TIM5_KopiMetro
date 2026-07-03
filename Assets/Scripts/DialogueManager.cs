@@ -104,6 +104,7 @@ public class DialogueManager : MonoBehaviour
 			else
 			{
                 parts = dataDialogue.cookingDialogue.badRespon.Split(':');
+                if (parts[1] == "Bambang") index = 64;
             }
         }
 
