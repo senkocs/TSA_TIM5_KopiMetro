@@ -1160,7 +1160,7 @@ MonoBehaviour:
       totalIngredient: 5
     - nameIngredient: Milk
       totalIngredient: 0
-  - nameRecipe: Salted Caramel Coffe
+  - nameRecipe: Salted Caramel Coffee
     mixedSprite: {fileID: 21300000, guid: 9f7efac7fbd54e249a49cb22b7bb85b0, type: 3}
     ice: 1
     coal: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
     - nameIngredient: Cholcolate Sirup
       totalIngredient: 0
     - nameIngredient: Salted Caramel Sirup
-      totalIngredient: 0
+      totalIngredient: 4
     - nameIngredient: Condensed Milk
       totalIngredient: 4
     - nameIngredient: Milk
@@ -2459,7 +2459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &314828784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5012,8 +5012,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 88ad166dfae4c88489f5a3824024be23, type: 2}
   audioClips:
   - {fileID: 8300000, guid: 358925ee269fd7a44965f6f5c9507840, type: 3}
-  - {fileID: 8300000, guid: 850bf3b120f99cc45a0b48d0db3c191e, type: 3}
   - {fileID: 8300000, guid: 473939500ea119340ae1c81d51319f69, type: 3}
+  - {fileID: 8300000, guid: 850bf3b120f99cc45a0b48d0db3c191e, type: 3}
 --- !u!1 &787348876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,15 +5478,15 @@ RectTransform:
   m_GameObject: {fileID: 908024011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.56, y: 1.56, z: 1.56}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1775007522}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 663.9, y: 349.6}
+  m_AnchoredPosition: {x: 666.3, y: 395.89}
   m_SizeDelta: {x: 305.53, y: 305.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908024013
@@ -5509,7 +5509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73021f597c0874c47963439b712b49b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc897413844f4074ba0678c70768108a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

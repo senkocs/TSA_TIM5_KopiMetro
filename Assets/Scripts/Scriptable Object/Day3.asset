@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - image: {fileID: 0}
-    speech: '*Dini hari.. terasa berbeda namun dengan semangat yang sama Salma siap
+    speech: '*Pagi hari.. terasa berbeda namun dengan semangat yang sama Salma siap
       memulai hari ini di toko :narrator'
     cooking: 0
     active: 1
@@ -23,7 +23,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Aku siap untuk hari ini, semoga semuanya lancar :Salma
     cooking: 0
     active: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Silahkan, kakaknya berdua mau pesan apa :Salma
     cooking: 0
     active: 1
@@ -77,7 +77,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Pesen apa ya sayang? :Gisel
     cooking: 0
     active: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 48a035fb4e545f54f9206960585b81b4, type: 3}
     speech: Ini aja, kayanya enak :Dimas
     cooking: 0
     active: 1
@@ -95,17 +95,26 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Boleh, kak aku mau Salted Caramelnya 2 ya :Gisel
     cooking: 1
     active: 1
     cookingDialogue:
-      orderName: Salted Caramel Coffe
-      orderImage: {fileID: 0}
-      goodRespon: Ih pilihan kamu bener deh :Gisel
+      orderName: Salted Caramel Coffee
+      orderImage: {fileID: 21300000, guid: 9f7efac7fbd54e249a49cb22b7bb85b0, type: 3}
+      goodRespon: '... :'
+      badRespon: '... :'
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
+    speech: Okay, 1 lgi :Gisel
+    cooking: 1
+    active: 1
+    cookingDialogue:
+      orderName: Salted Caramel Coffee
+      orderImage: {fileID: 21300000, guid: 9f7efac7fbd54e249a49cb22b7bb85b0, type: 3}
+      goodRespon: Ih pilihan kamu enak deh :Gisel
       badRespon: '*Gisel meminum kopinya dan menatap dimas dengan wajah kesalnya
-        :'
-  - image: {fileID: 0}
+        :narrator'
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Kakanya kelihatan keren jadi barista, cocok gitu :Gisel
     cooking: 0
     active: 1
@@ -123,7 +132,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Makasih yaa.. kalian juga lucu banget :Salma
     cooking: 0
     active: 1
@@ -132,7 +141,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Kakanya udah punya pasangan belum? :Gisel
     cooking: 0
     active: 1
@@ -150,7 +159,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Hehe belum.. :Salma
     cooking: 0
     active: 1
@@ -159,7 +168,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 48a035fb4e545f54f9206960585b81b4, type: 3}
     speech: Ih kamu gasopan nanya begitu ke kakaknya :Dimas
     cooking: 0
     active: 1
@@ -168,7 +177,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Kan aku mau tau, emangnya gaboleh? :Gisel
     cooking: 0
     active: 1
@@ -177,7 +186,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 48a035fb4e545f54f9206960585b81b4, type: 3}
     speech: Tetep aja gasopan :Dimas
     cooking: 0
     active: 1
@@ -186,7 +195,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Aduh gapapa kok.. ga perlu berantem :Salma
     cooking: 0
     active: 1
@@ -195,8 +204,8 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Aku memang memilih tidak punya pasangan untuk sekarang.. :Salma
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
+    speech: Aku emang milih tidak punya pasangan untuk sekarang.. :Salma
     cooking: 0
     active: 1
     cookingDialogue:
@@ -213,7 +222,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Padahal pacaran seru tauu :Gisel
     cooking: 0
     active: 1
@@ -222,7 +231,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 48a035fb4e545f54f9206960585b81b4, type: 3}
     speech: Ih kamu tuh :Dimas
     cooking: 0
     active: 1
@@ -231,7 +240,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Hehe.. :Gisel
     cooking: 0
     active: 1
@@ -240,8 +249,8 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Maaf ya kak, kalau pacar aku ga sopan :Dimas
+  - image: {fileID: 21300000, guid: 48a035fb4e545f54f9206960585b81b4, type: 3}
+    speech: Maaf ya kak, kalau istri aku ga sopan :Dimas
     cooking: 0
     active: 1
     cookingDialogue:
@@ -249,7 +258,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Iya gapapa kok :Salma
     cooking: 0
     active: 1
@@ -258,8 +267,8 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Ayo kita harus ke perpustakaan buat belajar untuk ujian besok :Dimas
+  - image: {fileID: 21300000, guid: 48a035fb4e545f54f9206960585b81b4, type: 3}
+    speech: Ayo kita harus pulang, anak kita udah nungguin di rumah :Dimas
     cooking: 0
     active: 1
     cookingDialogue:
@@ -267,7 +276,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ba0d5f26f1e254f42a5e1ce3ab0ebdf6, type: 3}
     speech: Yuk! :Gisel
     cooking: 0
     active: 1
@@ -305,7 +314,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Halo, saya mau pesan Mocha nya satu :Syahla
     cooking: 0
     active: 1
@@ -323,8 +332,9 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: '*Raut wajah Syahla memberi respon positif untuk kopinya :'
       badRespon: '*Syahla menaruh kopinya dan tidak meminumnya lagi :'
-  - image: {fileID: 0}
-    speech: Eh aku suka deh dengan outer kamu, beli dimana kalau aku boleh tau? :Syahla
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
+    speech: Eh aku suka deh dengan gelang kamu, beli dimana kalau aku boleh tau?
+      :Syahla
     cooking: 0
     active: 1
     cookingDialogue:
@@ -332,9 +342,9 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Kamu juga lucu kacamatanya, kalau outer ini aku beli di toko seberang
-      yang masih deretan toko kopi ini :Salma
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
+    speech: outfit kamu juga lucu, kalau gelang ini aku beli di toko seberang yang
+      masih deretan toko kopi ini :Salma
     cooking: 0
     active: 1
     cookingDialogue:
@@ -342,7 +352,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Hihihi.. aku beli ini juga ga jauh dari sini kok :Syahla
     cooking: 0
     active: 1
@@ -351,7 +361,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Kamu baru ya disini, aku baru lihat kamu :Syahla
     cooking: 0
     active: 1
@@ -360,7 +370,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Iyaa.. belum lama disini :Salma
     cooking: 0
     active: 1
@@ -369,7 +379,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Kalau orang kaya kamu udah pasti temennya Zeta kan? :Syahla
     cooking: 0
     active: 1
@@ -378,7 +388,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kok tau.. iya aku teman deketnya Zeta :Salma
     cooking: 0
     active: 1
@@ -387,7 +397,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Tau.. soalnya barista disini sebelumnya gaada yang sepantaran kamu deh
       kayanya? :Syahla
     cooking: 0
@@ -397,7 +407,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Ohh.. begitu yah, aku baru tau :Salma
     cooking: 0
     active: 1
@@ -406,7 +416,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Iya.. :Syahla
     cooking: 0
     active: 1
@@ -444,7 +454,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Permisi, saya mau Signature nya satu :Guntur
     cooking: 0
     active: 1
@@ -458,12 +468,12 @@ MonoBehaviour:
     cooking: 1
     active: 1
     cookingDialogue:
-      orderName: Kopi Bara
+      orderName: Signature
       orderImage: {fileID: 0}
       goodRespon: Terimakasih.. :Guntur
       badRespon: '*Guntur hanya terdiam setelah disajikan sebuah kopi  *Guntur pindah
         ke meja di seberang bar dan tidak lama dia meninggalkan toko :'
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Eh keliatannya, kaka itu lagi sedih ga sih :Syahla
     cooking: 0
     active: 1
@@ -472,7 +482,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Iya kali ya.. tapi keliatan sedih sih :Salma
     cooking: 0
     active: 1
@@ -481,7 +491,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Hmm.. yauda deh kayanya aku mau pulang dulu :Syahla
     cooking: 0
     active: 1
@@ -490,7 +500,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Oh iyaa.. hati hati ya :Salma
     cooking: 0
     active: 1
@@ -499,7 +509,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Kita belum kenalan tau.. aku Syahla, Nama kamu siapa? :Syahla
     cooking: 0
     active: 1
@@ -508,7 +518,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Oiya kenalin, aku Salma :Salma
     cooking: 0
     active: 1
@@ -517,7 +527,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dfa88b5d09460f54ab97ae8f25c1505c, type: 3}
     speech: Okedeh Salma, Kapan kapan aku main kesini lagi ya.. bye bye :Syahla
     cooking: 0
     active: 1
@@ -526,7 +536,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Bye bye.. kita ngobrol lagi ya kapan kapan :Salma
     cooking: 0
     active: 1
@@ -538,7 +548,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Syahla tersenyum lalu meninggalkan tempat itu :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -548,7 +558,7 @@ MonoBehaviour:
     speech: "*Selang Syahla keluar dari pintu, Terlihat oleh Salma kalau Syahla seperti
       berpapasan dengan orang yang ia kenal\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -558,52 +568,52 @@ MonoBehaviour:
     speech: "*Lalu orang itu memasuki toko dan segera suasana toko berubah menjadi
       penuh tekanan untuk Salma\r :narrator"
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 43cab93b0ff31e24085c9034eff4470f, type: 3}
     speech: Sore.. :Bambang
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: S-Selamat sore.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 43cab93b0ff31e24085c9034eff4470f, type: 3}
     speech: Kamu baru ya disini? :Bambang
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: I-Iya betul.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 43cab93b0ff31e24085c9034eff4470f, type: 3}
     speech: Hmm.. yaudah saya mau yang seperti biasa satu :Bambang
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -613,19 +623,19 @@ MonoBehaviour:
     speech: '*Salma kebingungan tapi terasa familiar dengan apa yang di sampaikan
       Zeta 2 hari lalu.. :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 43cab93b0ff31e24085c9034eff4470f, type: 3}
     speech: '*Salma mengambil keputusan ragu tapi berani dan menghampiri mesin kopi
       untuk segera membuat pesanan pelanggan tersebut :narrator'
     cooking: 1
-    active: 0
+    active: 1
     cookingDialogue:
-      orderName: Latte
+      orderName: Kopi Bara
       orderImage: {fileID: 0}
       goodRespon: Saya suka dengan kopi buatan kamu, betah ya disini :Bambang
       badRespon: '*Bambang meminum kopi tersebut dan menyembur salma   *Bambang menelpon
@@ -634,25 +644,25 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Bambang menikmati kopinya tanpa banyak bicara :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 43cab93b0ff31e24085c9034eff4470f, type: 3}
     speech: Terimakasih untuk kopinya, saya pamit dulu :Bambang
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Terimakasih sudah mampir.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -661,7 +671,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Bambang meninggalkan tempat itu :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -671,16 +681,16 @@ MonoBehaviour:
     speech: '*Salma merasa lega dan mengingat apa yang di sampai kan Zeta pada hari
       pertama ia bekerja disitu :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Jadi itu orangnya yang diceritain sama Zeta ya.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -689,16 +699,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Guntur menghampiri bar dan duduk disana :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Saya mau take away satu kopi :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -707,7 +717,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: Bolehh.. sebentar ya :Salma
     cooking: 1
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: Signature
       orderImage: {fileID: 0}
@@ -716,25 +726,25 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Sembari menaruh cup kopi kedalam kemasan Salma bertanya :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kakak mukanya muram, kakaknya gapapa? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Saya habis di pecat :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -743,16 +753,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Salma merasa bersalah setelah menanyakan pertanyaan tersebut :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Tapi saya gapapa, memang wajahnya muram seperti ini sedari kecil :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -761,7 +771,7 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Guntur mencoba tersenyum tapi terasa canggung dan aneh :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -770,91 +780,91 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Salma tertawa kecil akan tingkah Guntur :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Tapi kakaknya beneran gapapa? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Beneran.. mungkin terasa sedih sedikit.. :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Tapi mimpi saya tidak putus disini, saya masih bisa kerja di tempat lain
-      :Guntur
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
+    speech: Tapi mimpi saya tidak putus di sini, saya masih bisa kerja di tempat
+      lain :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Saya akan coba lagi besok, Juga saya tidak punya alasan untuk menyerah..
       :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Memang kakaknya kerja di bidang apa? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Saya seorang Arsitek :Guntur
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
+    speech: Arsitek mbak :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Keren banget dong? :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Biasa saja.. :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Mimpi saya adalah untuk bisa menjalani hidup sebaik mungkin dan kalau
       bisa, Saya mau bantu banyak orang yang membutuhkan juga :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -863,25 +873,25 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Salma terkesima dan tersenyum oleh perkataan guntur :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: c510b1a59f143d5498815544fa1d5306, type: 3}
     speech: Baik saya pergi dulu ya.. Terimakasih kopinya :Guntur
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Terimakasih kembali.. :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -891,7 +901,7 @@ MonoBehaviour:
     speech: '*Mereka berdua tersenyum.. dan di saat itu yang tadinya senyum Guntur
       terasa kaku dan aneh menjadi senyum yang terasa penuh semangat dan keren :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
@@ -900,16 +910,16 @@ MonoBehaviour:
   - image: {fileID: 0}
     speech: '*Guntur meninggalkan tempat itu :narrator'
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Aku harus semangat sama seperti kakak itu.. aku juga gamau kalah! :Salma
     cooking: 0
-    active: 0
+    active: 1
     cookingDialogue:
       orderName: 
       orderImage: {fileID: 0}

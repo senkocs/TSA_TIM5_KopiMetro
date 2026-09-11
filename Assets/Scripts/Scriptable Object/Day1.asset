@@ -41,7 +41,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Halo! Permisi.. Selamat Pagi :Salma
     cooking: 0
     active: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Pagi, Sepakat ya.. dengan lo hadir disini hari ini, lo udah siap buat
       kerja sebagai barista disini :Zeta
     cooking: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Hehe, Tolong dibimbing ya.. :Salma
     cooking: 0
     active: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Tapi lo udah sarapan blom? gue gamau ya karyawan gue kerja dengan kondisi
       ngga fit :Zeta
     cooking: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Udah kok! :Salma
     cooking: 0
     active: 0
@@ -88,7 +88,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Tapi tadi perjalanan dari kost lo kesini ga jauh kan? :Zeta
     cooking: 0
     active: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Ngga, Cuman tadi sempet macet sedikit :Salma
     cooking: 0
     active: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Pokoknya jangan sampai telat aja deh.. :Zeta
     cooking: 0
     active: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Siap bos :Salma
     cooking: 0
     active: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Kalau gitu sekarang lo ikut gue ke belakang, kita ambil apron dan perlengkapan
       buat lo :Zeta
     cooking: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: 'Kok malah keliatan cocok banget di lo ya sal :Zeta '
     cooking: 0
     active: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: 'Setelah hari ini, percaya deh sama aku.. aku bakal jadi karyawan kamu
       yang paling jago :Salma '
     cooking: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Kalau gitu karna lo belom paham apa apa nih soal semuanya yang ada disini
       :Zeta
     cooking: 0
@@ -203,9 +203,9 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: Lo perhatikan dan pahami dengan baik semua instruksi gue ya, Gue tau
-      lo pasti lansung bisa :Zeta
+      lo pasti langsung bisa :Zeta
     cooking: 0
     active: 1
     cookingDialogue:
@@ -222,7 +222,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: "Harapan gue lo udah paham setelah mulut gue mulai berbusa ngejelasin
       semuanya ke lo, Sekarang gue mau lo buatkan gue 1 Coffee Latte\r :Zeta"
     cooking: 1
@@ -233,7 +233,7 @@ MonoBehaviour:
       goodRespon: 'Jujur gue kaget dengan rasanya :Zeta '
       badRespon: Yah Sal, Kayanya lo harus latihan lagi deh.. bisa sepi nih toko
         gue, Yauda gapapa learning by doing aja yah :Zeta
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: "Intinya, Menu disini ada banyak.. Lo harus bisa jaga konsistensi rasanya
       karna image dari toko ini ya dari rasanya yang konsisten dan lo salah satu
       pelanggan tetap disini lumayan galak kalau kopinya ga sesuai dengan kemauannya\r
@@ -245,7 +245,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 6ab01de2cf2126e47862385b363b673a, type: 3}
     speech: "Ya intinya lo harus bisa terbiasa dengan resep resep disini dan saran
       dari gue semangat trus deh\r\r :Zeta"
     cooking: 0
@@ -255,7 +255,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Makasih ya Zeta untuk ilmunya, Aku janji ga bakal ngecewain kamu\r :Salma"
     cooking: 0
     active: 1
@@ -303,7 +303,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Aduh maaf ya mba, Saya pikir pintunya didorong\r :Bayu"
     cooking: 0
     active: 1
@@ -312,7 +312,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Eh iya gapapa..\r :Salma"
     cooking: 0
     active: 1
@@ -321,7 +321,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Aduh, eh itu saya mau pesan kopi mba\r :Bayu"
     cooking: 0
     active: 1
@@ -330,7 +330,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Boleh silahkan dilihat dulu menunya\r :Salma"
     cooking: 0
     active: 1
@@ -349,7 +349,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Kamu gapapa kan, Kamu keliatan kebingungan sedari tadi.. mau cerita
       ke aku? aku bakal dengerin kok\r\r :Salma"
     cooking: 0
@@ -359,7 +359,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Emangnya gapapa?\r\r :Bayu"
     cooking: 0
     active: 1
@@ -368,7 +368,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Gapapa kok\r\r :Salma"
     cooking: 0
     active: 1
@@ -377,7 +377,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Jadi mba aku lagi bingung banget, aku terpaksa masuk ke Fakultas Teknik
       karna dorongan dari orang tua ku.. sementara aku cuman terampil dalam seni,
       Selama kuliah aku stres banget mengikuti pembelajarannya tapi demi keluargaku
@@ -389,7 +389,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Ga cuman kuliah aku juga sekarang kerja Part Time supaya aku punya uang
       jajan.. Gimana ya mba namanya juga keluarga sederhana aku takut menyusahkan
       Orang Tua ku kalau mereka terus terusan ngasih aku uang jajan, Tapi aku sendirinya
@@ -411,7 +411,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Kamu keren banget tau, orang tua kamu pasti bangga sama kamu kalau mereka
       dengar ini\r\r :Salma"
     cooking: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Nantinya kamu bakal tumbuh menjadi kebanggaan keluarga kamu dan ga cuman
       itu.. kamu bakal tumbuh jadi manusia yang hebat karna sudah mengusahakan yang
       terbaik untuk tetap bertahan juga mengusahakan yang baik untuk keluarga kamu\r
@@ -433,7 +433,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Semangat terus ya mas nya..\r :Salma"
     cooking: 0
     active: 1
@@ -452,7 +452,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Terimakasih banyak ya\u2026\r :Bayu"
     cooking: 0
     active: 1
@@ -461,7 +461,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "Perkataan kamu bener bener berarti buat aku\r :Bayu"
     cooking: 0
     active: 1
@@ -470,7 +470,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "Sama sama mas!\r :Salma"
     cooking: 0
     active: 1
@@ -489,7 +489,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: Kalau gitu aku mau pesen kopinya :Bayu
     cooking: 0
     active: 1
@@ -498,8 +498,8 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Boleh disebelah sini untuk menunya :Salma
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
+    speech: Boleh, disebelah sini untuk menunya :Salma
     cooking: 0
     active: 1
     cookingDialogue:
@@ -516,7 +516,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: (Aduh pesen apa ya) :Bayu
     cooking: 0
     active: 1
@@ -525,7 +525,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: "\u2026 :Bayu"
     cooking: 0
     active: 1
@@ -534,7 +534,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: Buwertersekot nya satu :Bayu
     cooking: 0
     active: 1
@@ -543,7 +543,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Buweter apa tadi? :Salma
     cooking: 0
     active: 1
@@ -552,7 +552,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: "\u2026 :Salma"
     cooking: 0
     active: 1
@@ -561,7 +561,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Oh! Butterscotch maksudnya? :Salma
     cooking: 0
     active: 1
@@ -579,7 +579,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7bb2dc4d57225dc4a824e16ffc42a502, type: 3}
     speech: Iya itu :Bayu
     cooking: 0
     active: 1
@@ -606,7 +606,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Terimakasih sudah mampir, Datang lagi ya! :Salma
     cooking: 0
     active: 1
@@ -633,7 +633,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: SALMAAAAAAAAAAAAAAAAA :Lidya
     cooking: 0
     active: 1
@@ -651,7 +651,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kok kamu ada disini lid? :Salma
     cooking: 0
     active: 1
@@ -660,7 +660,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Hehehe iya dongg, aku diberitahu Zeta kalau kamu hari ini mulai kerja
       disini :Lidya
     cooking: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Makasih ya kamu udah mau repot repot datang kesini :Salma
     cooking: 0
     active: 1
@@ -679,7 +679,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Kan sesama teman se perjuangan kuliah dulu harus solid dong :Lidya
     cooking: 0
     active: 1
@@ -688,7 +688,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Coba, aku mau ngerasain minuman buatan kamu :Lidya
     cooking: 0
     active: 1
@@ -697,7 +697,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: ES JERUK SATU! :Lidya
     cooking: 0
     active: 1
@@ -706,7 +706,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Disini cuman jual kopi.. :Salma
     cooking: 0
     active: 1
@@ -724,7 +724,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Yaudah deh aku pesen kopi yang enak menurut kamu deh :Lidya
     cooking: 0
     active: 1
@@ -733,7 +733,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kalau gitu aku bikinin mocha yah buat kamu :Salma
     cooking: 0
     active: 1
@@ -742,7 +742,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Okayy, Aku percaya sama kamu :Lidya
     cooking: 1
     active: 1
@@ -751,7 +751,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: Enak banget sal! ada coklatnya yah ini.. aku sukaa :Lidya
       badRespon: Ini kopi apa coklat ya sal? kok ga kerasa kopinya? :Lidya
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Yaudah kamu semangat kerjanya yah.. :Lidya
     cooking: 0
     active: 1
@@ -760,7 +760,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7e93e6891a658af4ea63bdc92cd0e125, type: 3}
     speech: Aku mau pergi kerja duluu :Lidya
     cooking: 0
     active: 1
@@ -769,7 +769,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Iya makasih ya Lidya, udah sempetin dateng kesini nemuin aku.. :Salma
     cooking: 0
     active: 1
@@ -778,7 +778,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kamu semangat juga yah! :Salma
     cooking: 0
     active: 1
@@ -797,7 +797,7 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
-    speech: CUSTOMER DAY 1 SULTON ( last customer day 1 ) :narrator
+    speech: CUSTOMER 3 DAY 1 SULTON :narrator
     cooking: 0
     active: 1
     cookingDialogue:
@@ -823,8 +823,8 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Selamat datang di coffee metro :Salma
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
+    speech: Selamat datang di Lambung Kopi :Salma
     cooking: 0
     active: 1
     cookingDialogue:
@@ -832,7 +832,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Sore, ka aku mau pesan kopi :Sulthon
     cooking: 0
     active: 1
@@ -841,7 +841,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Boleh, silahkan dilihat dulu menu nya :Salma
     cooking: 0
     active: 1
@@ -859,7 +859,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Aku mau spanish latte nya satu :Sulthon
     cooking: 0
     active: 1
@@ -868,7 +868,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Baik ditunggu sebentar yaa.. :Salma
     cooking: 0
     active: 1
@@ -877,7 +877,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Eh, kak mau nanya.. disini tersedia Intern/Part-Time ngga yah? :Sulthon
     cooking: 0
     active: 1
@@ -886,7 +886,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Eh? kalau itu aku kurang tau.. soalnya aku juga baru hari pertama disini
       :Salma
     cooking: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Aduh.. begitu ya :Sulthon
     cooking: 0
     active: 1
@@ -905,7 +905,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Maaf ya.. :Salma
     cooking: 0
     active: 1
@@ -914,7 +914,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Gapapa kak.. :Sulthon
     cooking: 0
     active: 1
@@ -923,7 +923,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: '*Sulton bergumam aduh gimana yah biar bisa Part-Time :narrator'
     cooking: 1
     active: 1
@@ -934,7 +934,7 @@ MonoBehaviour:
         bisa magang apa ngga disini? :Sulthon
       badRespon: '*Sulton ga sengajar menyembur minumnya karna kaget dengan rasanya
         :'
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Aduh.. :Sulthon
     cooking: 0
     active: 1
@@ -943,7 +943,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: ??? :Salma
     cooking: 0
     active: 1
@@ -952,7 +952,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Ka, kamu ada saran ga buat aku supaya aku bisa dapetin magang? :Sulthon
     cooking: 0
     active: 1
@@ -961,7 +961,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kamu coba ini deh, pakai aplikasi SeekJob atau liat penawaran di sosial
       media :Salma
     cooking: 0
@@ -971,7 +971,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Trus ada baiknya kalau kamu udah siapin data data yang diperluin untuk
       ngelamar magang atau kerja paruh waktunya :Salma
     cooking: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Harusnya kalau data data sih kamu pasti udah kamu siapin kan? :Salma
     cooking: 0
     active: 1
@@ -999,7 +999,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Hehe belum.. :Sulthon
     cooking: 0
     active: 1
@@ -1008,7 +1008,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Loh? kamu harus siapin tau, supaya kalau kamu interview di tempat kamu
       cari.. bisa sat set :Salma
     cooking: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Begitu yah.. astaga aku ga kepikiran sama sekali :Sulthon
     cooking: 0
     active: 1
@@ -1027,7 +1027,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Kalau gitu besok aku bakalan coba saran kamu sekaligus juga coba cari
       lagi ditempat lain :Sulthon
     cooking: 0
@@ -1037,7 +1037,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Berarti malam ini, aku harus siapin semuanya :Sulthon
     cooking: 0
     active: 1
@@ -1055,7 +1055,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Semangat yah.. :Salma
     cooking: 0
     active: 1
@@ -1064,7 +1064,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: dd92b922ea2068d43b6c5abbb4efa028, type: 3}
     speech: Thankyou ka, aku pamit dulu yah.. :Sulthon
     cooking: 0
     active: 1
@@ -1073,7 +1073,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Datang lagi yah, semangat cari kerja paruh waktunya :Salma
     cooking: 0
     active: 1

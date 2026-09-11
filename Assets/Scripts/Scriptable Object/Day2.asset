@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - image: {fileID: 0}
-    speech: '*Dini hari.. salma tiba dan bersiap untuk bertugas hari ini :narrator'
+    speech: '*Pagi hari.. salma tiba dan bersiap untuk bertugas hari ini :narrator'
     cooking: 0
     active: 1
     cookingDialogue:
@@ -22,7 +22,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Hari kedua yah.. semoga hari ini jauh lebih baik dari kemarin :Salma
     cooking: 0
     active: 1
@@ -40,7 +40,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Permisi.. :Indah
     cooking: 0
     active: 1
@@ -49,8 +49,8 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
-    speech: Selamat datang di Coffee Metro! :Salma
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
+    speech: Selamat datang di Lambung Kopi! :Salma
     cooking: 0
     active: 1
     cookingDialogue:
@@ -58,7 +58,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Silahkan, mau pesan apa :Salma
     cooking: 0
     active: 1
@@ -67,7 +67,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Aku mau Latte nya satu.. :Indah
     cooking: 0
     active: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
         ini :Indah
       badRespon: ((Aduh lagi lagi tempat kopi yang aku datangin, kopinya gaenak))
         :Indah
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Susah ga sih kak, bikin kopi kaya gini? :Indah
     cooking: 0
     active: 1
@@ -96,7 +96,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Sebenarnya asal telaten dan tekun pasti mudah :Salma
     cooking: 0
     active: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Kakak sendiri udah lama kerja disini? :Indah
     cooking: 0
     active: 1
@@ -114,7 +114,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Oh aku baru disini.. emm 2 hari :Salma
     cooking: 0
     active: 1
@@ -123,7 +123,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Wah.. :Indah
     cooking: 0
     active: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: ((Tempat ini sudah banyak berubah ya..)) :Dirga
     cooking: 0
     active: 1
@@ -159,7 +159,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Halo.. saya mau pesan kopinya, dine in ya :Richard
     cooking: 0
     active: 1
@@ -168,7 +168,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Tuh kak, ada pelanggan.. dilayani dulu :Indah
     cooking: 0
     active: 1
@@ -177,7 +177,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Silahkan.. menunya di sebelah sini :Salma
     cooking: 0
     active: 1
@@ -195,7 +195,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Saya mau Dolce nya satu :Richard
     cooking: 0
     active: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kalau kakaknya mau pesan apa? :Salma
     cooking: 0
     active: 1
@@ -233,7 +233,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Oh, maaf.. saya mau Americano nya satu :Dirga
     cooking: 0
     active: 1
@@ -278,7 +278,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Saya dulu berteman baik dengan pemilik sebelumnya dari toko ini :Dirga
     cooking: 0
     active: 1
@@ -297,7 +297,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Semasa beliau membangun toko ini, saya adalah saksi jerih payah usaha
       teman baik saya itu :Dirga
     cooking: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Nostalgia rasanya, saya pikir setelah beliau memutuskan untuk menjual
       toko ini dan mungkin akan banyak yang berubah.. ternyata semuanya masih sama
       :Dirga
@@ -318,7 +318,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Aduh maaf ya, saya jadi kelepasan cerita :Dirga
     cooking: 0
     active: 1
@@ -327,7 +327,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Saya terpukau dengan pertemanan masnya :Richard
     cooking: 0
     active: 1
@@ -336,7 +336,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Pelanggan lama ternyata Hahaha :Richard
     cooking: 0
     active: 1
@@ -355,7 +355,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Hahaha, saya kemari hari ini hanya ingin sedikit bernostalgia akan tempat
       ini :Dirga
     cooking: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Maaf ya kalau saya membuat suasananya jadi sedikit canggung :Dirga
     cooking: 0
     active: 1
@@ -374,7 +374,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Eh anu, gapapa mas.. saya jadi tau kalau toko ini punya pemilik sebelum
       teman saya :Salma
     cooking: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Oh iya? ternyata pemilik sekarang teman kamu :Dirga
     cooking: 0
     active: 1
@@ -393,7 +393,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Benar.. :Salma
     cooking: 0
     active: 1
@@ -402,7 +402,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Memang mbanya sudah berapa lama kerja disini? :Richard
     cooking: 0
     active: 1
@@ -411,7 +411,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Ini hari kedua saya mas.. :Salma
     cooking: 0
     active: 1
@@ -420,7 +420,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Walah.. semangat ya kamu :Richard
     cooking: 0
     active: 1
@@ -429,7 +429,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Yauda kalau gitu saya mau take away satu kopi lagi, Saya mau Signature
       nya ya :Dirga
     cooking: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Oh sudah mau pergi mas? :Richard
     cooking: 0
     active: 1
@@ -448,7 +448,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: ac3eb60301a6d1e41ab5023d0b8431c4, type: 3}
     speech: Betul, saya ada urusan setelah ini :Dirga
     cooking: 0
     active: 1
@@ -457,7 +457,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7390ac5223c3c3b47bab0e6c8bc17d00, type: 3}
     speech: Saya juga mau pesan satu latte lagi untuk take away ya mba :Indah
     cooking: 0
     active: 1
@@ -503,7 +503,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Ngomong ngomong mbanya jadi barista karena passion nya  kopi atau apa?
       :Richard
     cooking: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Oh kebetulan saya sambil cari uang jajan sih mas, tapi saya juga seneng
       kopi :Salma
     cooking: 0
@@ -523,7 +523,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Oh begitu ya.. susah ga sih mengoperasikan mesin kopi? :Richard
     cooking: 0
     active: 1
@@ -532,7 +532,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Masih belajar sih mas, tapi sejauh ini sudah mulai terbiasa :Salma
     cooking: 0
     active: 1
@@ -541,7 +541,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Saya lihat menarik juga menjadi barista :Richard
     cooking: 0
     active: 1
@@ -550,7 +550,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Kenapa ga coba ambil kelas barista aja masnya? :Salma
     cooking: 0
     active: 1
@@ -559,7 +559,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Mungkin di kehidupan saya yang lainnya, saya udah jadi barista :Richard
     cooking: 0
     active: 1
@@ -568,7 +568,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Sekarang saya sudah fokus di pekerjaan saya, sebagai Developer Game :Richard
     cooking: 0
     active: 1
@@ -577,7 +577,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: ((Unik ya masnya..)) :Salma
     cooking: 0
     active: 1
@@ -586,7 +586,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Oh begitu ya mas.. :Salma
     cooking: 0
     active: 1
@@ -604,7 +604,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: fbf2e54e1ced9f348bf401fe506e13ef, type: 3}
     speech: Permisi.. :Rachel
     cooking: 0
     active: 1
@@ -613,7 +613,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Iya silahkan.. :Salma
     cooking: 0
     active: 1
@@ -622,7 +622,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: fbf2e54e1ced9f348bf401fe506e13ef, type: 3}
     speech: Saya mau Americanonya satu :Rachel
     cooking: 0
     active: 1
@@ -640,7 +640,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: Thankyou yaa.. kopinya enak btw :Rachel
       badRespon: '*Rachel meninggalkan toko.. :Rachel'
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: 7a6954f122d0ca24db51c84083903456, type: 3}
     speech: Sepertinya saya harus pergi, kalau begitu saya duluan ya :Richard
     cooking: 0
     active: 1
@@ -649,7 +649,7 @@ MonoBehaviour:
       orderImage: {fileID: 0}
       goodRespon: 
       badRespon: 
-  - image: {fileID: 0}
+  - image: {fileID: 21300000, guid: f9b948afba9373b4182f1a3dc7fb2b1f, type: 3}
     speech: Terimakasih sudah mampir, datang lagi ya :Salma
     cooking: 0
     active: 1
@@ -659,7 +659,27 @@ MonoBehaviour:
       goodRespon: 
       badRespon: 
   - image: {fileID: 0}
+    speech: '*Rachel membuka laptopnya untuk melanjutkan pekerjaannya dan terasa
+      tidak ingin diganggu saat itu :narrator'
+    cooking: 0
+    active: 1
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
     speech: '*Salma pun mulai melakukan clean up dan bersiap untuk pulang :narrator'
+    cooking: 0
+    active: 1
+    cookingDialogue:
+      orderName: 
+      orderImage: {fileID: 0}
+      goodRespon: 
+      badRespon: 
+  - image: {fileID: 0}
+    speech: "*Rachel yang memerhatikan salma pun juga mulai mengemas barang\u201D
+      nya :narrator"
     cooking: 0
     active: 1
     cookingDialogue:
